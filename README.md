@@ -17,6 +17,6 @@ Proyecto para recolectar código en html y css para crear imágenes de diferente
 
 # Otros proyectos
 
-+ [fun with flags/Banderas divertidas](https://github.com/xaca/juego_banderas)
++ [Fun with flags/Banderas divertidas](https://github.com/xaca/juego_banderas)
 + [C:heart:ding music](https://github.com/xaca/coding-music)
 + [hola mundo](https://github.com/xaca/holamundo.co) 
