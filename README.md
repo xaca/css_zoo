@@ -1,22 +1,22 @@
 # CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
-विभिन्न जानवरों की छवियों को बनाने के लिए html और css में कोड एकत्र करने की परियोजना 
+Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
-# निर्देश 
+# Instrucciones
 
-+ अंग्रेजी में जानवर के नाम के साथ html बनाएँ 
-+ टैग और HTML का उपयोग करके पशु का एक चित्रमय प्रतिनिधित्व बनाने 
-+ छवियों का समर्थन नहीं कर रहे हैं 
-+ लेखक क्रेडिट जोड़ें 
-+ [hacktoberfest व्यवहार कोड] का पालन करें (https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
++ Crear html con el nombre del animal en inglés
++ Usando etiquetas y html solamente crear una representación gráfica del animal
++ No se admiten imágenes
++ Agregar los créditos del autor
++ Seguir el [código conducta de hacktoberfest](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
 
-# मुद्दे 
+# Issues
 
-+ [नई जानवरों](https://github.com/xaca/css_zoo/issues/2)
-+ [अनुवाद readme फ़ाइल के साथ मदद] (https://github.com/xaca/css_zoo/issues/1) 
++ [Nuevos animales](https://github.com/xaca/css_zoo/issues/2)
++ [Ayuda con traducción archivo readme](https://github.com/xaca/css_zoo/issues/1) 
 
-# अन्य परियोजनाएं
+# Otros proyectos
 
-+ [झंडे के साथ मज़ा / अजीब झंडे] (https://github.com/xaca/juego_banderas) 
-+ [सी: दिल: डिंग संगीत] (https://github.com/xaca/coding-music) 
-+ [हैलो दुनिया ] (https://github.com/xaca/holamundo.co)
++ [Fun with flags/Banderas divertidas](https://github.com/xaca/juego_banderas)
++ [C:heart:ding music](https://github.com/xaca/coding-music)
++ [hola mundo](https://github.com/xaca/holamundo.co) 
