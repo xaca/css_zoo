@@ -1,4 +1,4 @@
-# CSS FARM :frog: :bee: :beetle:
+# CSS ZOO :frog: :bee: :beetle: :lion:
 
 Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
@@ -12,8 +12,8 @@ Proyecto para recolectar código en html y css para crear imágenes de diferente
 
 # Issues
 
-+ [Nuevos animales](https://github.com/xaca/juego_banderas/issues/1)
-+ [Ayuda con traducción archivo readme](https://github.com/xaca/css_farm/issues/2) 
++ [Nuevos animales](https://github.com/xaca/css_zoo/issues/2)
++ [Ayuda con traducción archivo readme](https://github.com/xaca/css_zoo/issues/1) 
 
 # Otros proyectos
 
