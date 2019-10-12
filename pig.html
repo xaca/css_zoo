@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pig</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+        }
+        .circulo{
+            position:relative;
+            background:pink;
+            border-radius:100px;
+            width:200px;
+            height:200px;
+            margin-left:100px;
+            margin-top:90px;
+            display: inline-block;
+        }
+        .corona{
+            top: -57px;
+            left: 41px;
+            width: 115px;
+            height: 50px;
+            background: yellow !important;
+            transform: scale(0.85);
+        }
+        #nariz{
+            width: 83px;
+            height: 44px;
+            border: 2px solid black;
+            top: 100px;
+            left: 31px;
+            background-color: pink;
+            border-radius: 31px 33px;
+        }
+        .punta{
+            top:-15px;
+            left:7px;
+            width:30px;
+            height:30px;
+            background:gold !important;
+            transform:rotate(-14.9rad);
+        }
+        .md1{
+            left:44px;
+        }
+        .md2{
+            left:78px;
+        }
+        .md3{
+            left:114px;
+        }
+        .elementoInterno{
+            position:absolute;
+            background:black;
+        }
+        .ojo{
+            width:20px;
+            height:20px;
+            border-radius:100px;  
+        }
+        #ojo1{
+            top:60px;
+            left:30px;
+        }
+        #ojo2{
+            top:60px;
+            left:110px;  
+        }
+        #boca{
+            top: 140px;
+            left: 120px;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+        }
+        .cacho{
+            width:50px;
+            height:80px;
+            background:gray;
+            border-radius:30px 30px 0 0;
+        }
+        #cacho1{
+            top:-5px;
+            left:5px;
+        }
+        #cacho2{
+            top:-5px;
+            left:145px;
+        }
+        .oreja{
+            background: pink;
+            width: 48px;
+            height: 71px;
+        }
+        #oreja1{
+            top: 19px;
+            left: 9px;
+            transform: rotate(-3deg);
+        }
+        #oreja2{
+            top: 8px;
+            left: 126px;
+            transform: rotate(-88deg);
+        }
+        .hueco_nariz{
+            position:absolute;
+            width:10px;
+            height:10px;
+            background:black;
+            border-radius:10px;
+            top:17px;  
+        }
+
+        #hueco_nariz_i{
+            left:15px;
+        }
+
+        #hueco_nariz_d{
+            left:53px;
+        }
+    </style>
+</head>
+<body>
+    <div class="circulo">
+        <div class="elementoInterno corona">
+          <div class="elementoInterno punta"></div>
+          <div class="elementoInterno punta md1"></div>
+          <div class="elementoInterno punta md2"></div>    
+        </div>
+        <div id="oreja1" class="elementoInterno oreja">
+        </div>
+        <div id="oreja2" class="elementoInterno oreja">
+        </div>
+        <div id="ojo1" class="elementoInterno ojo"></div>
+        <div id="ojo2" class="elementoInterno ojo"></div>
+        <div id="nariz" class="elementoInterno">
+          <div class="hueco_nariz" id="hueco_nariz_i"></div>
+          <div id="hueco_nariz_d" class="hueco_nariz"></div>
+        </div>
+        <div id="boca" class="elementoInterno"></div>
+    </div>
+    <br><br>
+    <span><a href="https://github.com/xaca">Xaca Rana</a></span>
+</body>
+</html>
