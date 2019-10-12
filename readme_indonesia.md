@@ -1,6 +1,6 @@
 # CSS ZOO :pig: :frog: :bee: :beetle: :lion: (indonesia)
 
-Projek untuk membuat kode di HTML atau CSS untuk membuat foto binatang yang berbeda
+Proyek untuk membuat kode di HTML atau CSS untuk membuat foto binatang yang berbeda
 
 # Instruksi
 
