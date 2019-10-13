@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puffer Fish</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .puffer-fish {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .body {
+        background: #fcae16;
+        height: 400px;
+        width: 400px;
+        border-radius: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+      .belly {
+        background: #f7c460;
+        height: 270px;
+        width: 340px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 8px;
+      }
+      .fin {
+        background: #f7b025c2;
+        height: 180px;
+        width: 110px;
+        border-radius: 100%;
+        position: relative;
+      }
+      .fin.right {
+        margin-left: -30px;
+      }
+      .fin.right .line.top {
+        right: 15px;
+        top: -35px;
+        transform: rotate(-35deg);
+      }
+      .fin.right .line.bottom {
+        right: 30px;
+        top: 100px;
+        transform: rotate(225deg);
+      }
+      .fin.left {
+        margin-right: -30px;
+      }
+      .fin.left .line.top {
+        right: 20px;
+        top: -5px;
+        transform: rotate(65deg);
+      }
+      .fin.left .line.bottom {
+        right: 55px;
+        top: 120px;
+        transform: rotate(165deg);
+      }
+      .fin .line {
+        width: 50px; 
+        height: 90px;  
+        border: solid 1px;
+        border-color: transparent transparent #00000045 transparent;
+        border-radius: 0 0 50px 0;
+        position: absolute;
+      }
+      .eyes {
+        position: absolute;
+        top: 60px;
+        width: 280px;
+        display: flex;
+        justify-content: space-between;
+        z-index: 5;
+      }
+      .eyes .eye {
+        height: 100px;
+        width: 90px;
+        z-index: 1;
+        background: cornsilk;
+        border-radius: 100%;
+        border: 1px solid #00000030;
+        position: relative;
+      }
+      .eyes .eye:after {
+        content: '';
+        width: 40px;
+        height: 40px;
+        background: #000;
+        position: absolute;
+        border-radius: 100%;
+        left: 25px;
+        top: 30px;
+      }
+      .eyes .eye:before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background: cornsilk;
+        position: absolute;
+        border-radius: 100%;
+        left: 45px;
+        top: 30px;
+        z-index: 2;
+      }
+      .mouth {
+        background: #fcae16;
+        height: 110px;
+        width: 350px;
+        border: 1px solid;
+        position: absolute;
+        top: 120px;
+        z-index: 2;
+        border-radius: 50%;
+        border-color: transparent transparent #00000045;
+      }
+      .mouth:after {
+        content: '';
+        height: 40px;
+        width: 80px;
+        position: absolute;
+        background: brown;
+        top: 40px;
+        left: 130px;
+        border-radius: 50%;
+      }
+      .spines {
+        height: 15px;
+        width: 15px;
+        border: 2px solid;
+        border-color: #00000045 transparent transparent #00000045;
+        transform: rotate(45deg);
+        position: absolute;
+        z-index: 10;
+      }
+      .spines.one {
+        top: 140px;
+        right: 25px;
+        transform: rotate(105deg);
+      }
+      .spines.two {
+        top: 30px;
+        left: 100px;
+        transform: rotate(15deg);
+      }
+      .spines.three {
+        top: 40px;
+        right: 140px;
+      }
+      .spines.four {
+        top: 180px;
+        right: 100px;
+      }
+      .spines.five {
+        top: 170px;
+        left: 15px;
+        transform: rotate(-55deg);
+      }
+      .spines.six {
+        bottom: 5px;
+        transform: rotate(235deg);
+      }
+      .spines.seven {
+        bottom: 70px;
+        right: 60px;
+        transform: rotate(185deg);
+      }
+      .spines.eight {
+        bottom: 110px;
+        left: 70px;
+        transform: rotate(-85deg);
+      }
+      .spines.nine {
+        bottom: 110px;
+        right: 150px;
+        transform: rotate(205deg);
+      }
+      .spines.ten {
+        bottom: 60px;
+        left: 120px;
+        transform: rotate(245deg);
+      }
+    </style>
+</head>
+<body>
+  <div class="puffer-fish">
+    <div class="fin left">
+      <span class="line top"></span>
+      <span class="line bottom"></span>
+    </div>
+    <div class="body">
+      <span class="spines one"></span>
+      <span class="spines two"></span>
+      <span class="spines three"></span>
+      <span class="spines four"></span>
+      <span class="spines five"></span>
+      <span class="spines six"></span>
+      <span class="spines seven"></span>
+      <span class="spines eight"></span>
+      <span class="spines nine"></span>
+      <span class="spines ten"></span>
+      <div class="eyes">
+        <span class="left eye"></span>
+        <span class="right eye"></span>
+      </div>
+      <div class="mouth"></div>
+      <div class="belly"></div>
+    </div>
+    <div class="fin right">
+      <span class="line top"></span>
+      <span class="line bottom"></span>
+    </div>
+  </div>
+</body>
+</html>
