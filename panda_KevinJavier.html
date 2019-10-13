@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panda</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .panda{
+            position: relative;
+            width: 230px;
+            height: 250px;  
+            margin-bottom: 20px;
+        }
+        .circle{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* flex-direction: column; */
+            width: 220px;
+            height: 200px;
+            margin-top: 10px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .ear {
+            position: absolute;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            border: 15px solid #000;
+            border-radius: 50%;
+            background-color: #FFDCBE;
+        }
+        .left {
+            left: 0;
+        }
+        .rigth {
+            right: 0;
+        }
+        /* .eye{
+            flex-grow: 2
+        }
+        .noise{
+            flex-grow: 1
+        } */
+
+        .eye{
+            background-color: black;
+            height: 110px;
+            width: 80px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: flex-start;
+            padding: 10px 8px;
+        }
+
+        .eye.lf {
+            transform: translate(-10px,5px);
+        }
+
+        .lf{
+            justify-content: flex-end;
+        }
+
+        .eye.rg {
+            transform: translate(10px,5px);
+        }
+
+        .rg{
+            justify-content: flex-start;
+        }
+
+        .eye-container{
+            height: 60px;
+            width: 60px;
+            border-radius: 60px;
+            background: white;
+            display: flex;
+            align-items: flex-start; 
+            padding: 5px 4px;
+            box-sizing: border-box;    
+        }
+
+        .pupila{
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            border-radius: 40px;
+            display: flex;
+            align-items: flex-start; 
+            padding: 3px 5px;
+            box-sizing: border-box;  
+        }
+
+        .iris{
+            width: 20px;
+            height: 18px;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+        .others{
+            transform: translate(0px, 10px);
+        }
+
+        .noise{
+            width: 18px;
+            height: 18px;
+            background-color: black;
+            border-radius: 6px 6px 13px 13px;
+            position: relative;
+        }
+        /* .noise::after{
+            content: "x";
+            width: 18px;
+            height: 13px;
+            position: absolute;
+            background-color: black;
+
+        } */
+
+
+        .mount {
+            width: 20px;
+            height: 18px;
+            margin-top: 2px;
+            /* background: black; */
+            transform: scale(1.2);
+            border-radius: 100%;
+            border-bottom: solid black 3px
+        }
+    </style>
+</head>
+<body>
+    <div class="panda">
+        <div class="head">
+            <div class="ear left"></div>
+            <div class="ear rigth"></div>
+            <div class="circle">
+                <div class="eye lf">
+                    <div class="eye-container lf">
+                        <div class="pupila lf">
+                            <div class="iris">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="others">
+                    <div class="noise">
+                        
+                    </div>
+                    <div class="mount">
+                        
+                    </div>
+                </div>
+                <div class="eye rg">
+                    <div class="eye-container rg">
+                        <div class="pupila rg">
+                            <div class="iris">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <span><a href="https://github.com/Andre-rsfc">DevSylar</a></span>
+</body>
+</html>
