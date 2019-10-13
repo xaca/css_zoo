@@ -115,9 +115,9 @@
 #chimpance .mounth {
   position: absolute;
   border-bottom: 4px solid black;
+  bottom: 0;
   width: 90px;
   height: 10px;
-  margin-top: 240px;
   border-radius: 10px;
   left: calc(50% - 45px);
   z-index: 4;

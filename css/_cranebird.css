@@ -1,0 +1,62 @@
+#cranebird .container {
+  width: 100%;
+  height: 500px;
+  transform: scale(0.5) translateX(-40%);
+}
+
+#cranebird .head {
+  position: absolute;
+  clip-path: polygon(6% 100%, 18% 0, 100% 0);
+  background-color: #DAF7A6;
+  width: 120px;
+  height: 120px;
+}
+
+#cranebird .neck {
+  position: absolute;
+  clip-path: polygon(69% 0, 94% 21%, 51% 100%, 0 55%);
+  background-color: #FF5733;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+}
+
+#cranebird .torso {
+  position: absolute;
+  clip-path: polygon(69% 0, 94% 9%, 68% 100%, 0 58%);
+  background-color: #FFC300;
+  width: 200px;
+  height: 500px;
+  top: 15px;
+}
+
+#cranebird .body {
+  position: absolute;
+  clip-path: polygon(7% 45%, 100% 25%, 79% 100%, 3% 99%);
+  background-color: #FFF ;
+  width: 400px;
+  height: 300px;
+  top: 215px;
+  left: 131px;
+}
+
+#cranebird .wingfront {
+  position: absolute;
+  clip-path: polygon(0 45%, 51% 16%, 100% 81%, 0% 100%);
+  background-color: #FF5733;
+  width: 420px;
+  height: 300px;
+  top: 215px;
+  left: 135px;
+}
+
+#cranebird .wingback {
+  position: absolute;
+  clip-path: polygon(0 45%, 51% 16%, 100% 61%, 0% 100%);
+  background-color: #DAF7A6;
+  width: 420px;
+  height: 300px;
+  top: 215px;
+  left: 135px;
+}
+
