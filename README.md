@@ -1,21 +1,20 @@
 # CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
-Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
+Project to collect code in HTML and CSS and create images of different animals.
 
-# Instrucciones
+# Instructions
 
-+ Crear html con el nombre del animal en inglés
-+ Usando etiquetas y html solamente crear una representación gráfica del animal
-+ No se admiten imágenes
-+ Agregar los créditos del autor
-+ Seguir el [código conducta de hacktoberfest](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
++ Create HTML with the animal's name in english
++ Using tags and HTML just create a graphical representation of the animal
++ No images allowed
++ Follow [código conducta de hacktoberfest](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
 
 # Issues
 
-+ [Nuevos animales](https://github.com/xaca/css_zoo/issues/2)
-+ [Ayuda con traducción archivo readme](https://github.com/xaca/css_zoo/issues/1) 
++ [New Animals](https://github.com/xaca/css_zoo/issues/2)
++ [Help with translation - ReadMe Archive](https://github.com/xaca/css_zoo/issues/1) 
 
-# Otros proyectos
+# Another projects
 
 + [Fun with flags/Banderas divertidas](https://github.com/xaca/juego_banderas)
 + [C:heart:ding music](https://github.com/xaca/coding-music)
