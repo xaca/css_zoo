@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Spyder</title>
+    <style>
+      .box {
+        position: relative;
+        margin: auto;
+        display: block;
+        margin-top: 8%;
+        width: 600px;
+        height: 420px;
+        background: none;
+      }
+      .head {
+        position: absolute;
+        top: 16.5%;
+        left: 25%;
+        width: 50%;
+        height: 67%;
+        background: rgb(66, 78, 87);
+        border-radius: 50%;
+      }
+      .head-copy {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #2b3a44;
+        border-radius: 50%;
+        z-index: 2;
+      }
+      .ear-left {
+        position: absolute;
+        width: 70%;
+        height: 85%;
+        left: -40%;
+        top: 5%;
+        background: white;
+        border-radius: 50%;
+        z-index: 1;
+        animation: spinMe 3s infinite;
+      }
+      .ear-right {
+        position: absolute;
+        width: 70%;
+        height: 85%;
+        right: -40%;
+        top: 5%;
+        background: white;
+        border-radius: 50%;
+        z-index: 1;
+        animation: spinMe 3s infinite;
+      }
+      .inner-ear1 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 27%;
+        left: 22%;
+        background: #faa302;
+      }
+      .inner-ear2 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 39%;
+        left: 22%;
+        background: #faa302;
+      }
+      .inner-ear3 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 51%;
+        left: 22%;
+        background: #faa302;
+      }
+      .inner-ear4 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 63%;
+        left: 22%;
+        background: #faa302;
+      }
+      .inner-ear5 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 28%;
+        left: 67%;
+        background: #faa302;
+      }
+      .inner-ear6 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 40%;
+        left: 67%;
+        background: #faa302;
+      }
+      .inner-ear7 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 52%;
+        left: 67%;
+        background: #faa302;
+      }
+      .inner-ear8 {
+        position: absolute;
+        border-radius: 50%;
+        width: 10%;
+        height: 10%;
+        top: 63%;
+        left: 67%;
+        background: #faa302;
+      }
+      
+      .eye-left {
+        position: absolute;
+        background: #e0eb4c;
+        width: 12%;
+        height: 12%;
+        top: 28%;
+        left: 26%;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-right {
+        position: absolute;
+        background: #e0eb4c;
+        width: 12%;
+        height: 12%;
+        top: 28%;
+        right: 26%;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-1 {
+        position: absolute;
+        background:#e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 35%;
+        right: 135px;
+        border-radius: 50%;
+        z-index: 4;
+      }
+      .eye-2 {
+        position: absolute;
+        background: #e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 23%;
+        right: 120px;
+        border-radius: 50%;
+        z-index: 5;
+      }
+      .eye-3 {
+        position: absolute;
+        background: #e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 23%;
+        right: 150px;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-4 {
+        position: absolute;
+        background: #e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 12%;
+        right: 95px;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-5 {
+        position: absolute;
+        background: #e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 12%;
+        right: 135px;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-6 {
+        position: absolute;
+        background: #e0eb4c;
+        width: 10%;
+        height: 10%;
+        top: 12%;
+        right: 175px;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .pupil {
+        position: absolute;
+        width: 28%;
+        height: 30%;
+        top: 35%;
+        left: 36%;
+        border-radius: 50%;
+        background: #27354a;
+      }
+      .tooth1 {
+        position: absolute;
+        background: red;
+        width: 25%;
+        height: 92.5%;
+        left: 37%;
+        top: 400%;
+        border-radius: 50px;
+        z-index: 4;
+      }
+      .tooth2 {
+        position: absolute;
+        background: red;
+        width: 25%;
+        height: 92.5%;
+        left: 350%;
+        top: 400%;
+        border-radius: 50px;
+        z-index: 4;
+      }
+      .mouth {
+        position: absolute;
+        background: #000000;
+        width: 400%;
+        height: 25%;
+        left: 0%;
+        top: 367%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .left-paw1 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: -500%;
+        top: 167%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .left-paw2 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: -500%;
+        top: 267%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .left-paw3 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: -500%;
+        top: 367%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .left-paw4 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: -500%;
+        top: 467%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .right-paw1 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: 650%;
+        top: 167%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .right-paw2 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: 650%;
+        top: 267%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .right-paw3 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: 650%;
+        top: 367%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+      .right-paw4 {
+        position: absolute;
+        background:blue;
+        width: 200%;
+        height: 25%;
+        left: 650%;
+        top: 467%;
+        border-radius: 50px;
+        z-index: 30;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="head">
+        <div class="head-copy"></div>
+        <div class="ear-left">
+          <div class="inner-ear1"></div>
+          <div class="inner-ear2"></div>
+          <div class="inner-ear3"></div>
+          <div class="inner-ear4"></div>
+        </div>
+        <div class="ear-right">
+          <div class="inner-ear5"></div>
+          <div class="inner-ear6"></div>
+          <div class="inner-ear7"></div>
+          <div class="inner-ear8"></div>
+        </div>
+        <div class="eye-left">
+          <div class="pupil"></div>
+        </div>
+        <div class="eye-right">
+          <div class="pupil"></div>
+        </div>
+        <div class="eye-1">
+        <div class="pupil"></div>
+        </div>
+        <div class="eye-2">
+          <div class="pupil"></div>  
+        </div>
+        <div class="eye-3">
+          <div class="pupil"></div>  
+        </div>
+        <div class="eye-4">
+          <div class="pupil"></div>    
+        </div>
+        <div class="eye-5">
+          <div class="pupil"></div>    
+        </div>
+        <div class="eye-6">
+          <div class="pupil"></div>       
+        <div class="tooth1"></div>
+        <div class="tooth2"></div>
+        <hr class="mouth">
+        <hr class="left-paw1">
+        <hr class="left-paw2">
+        <hr class="left-paw3">
+        <hr class="left-paw4">
+        <hr class="right-paw1">
+        <hr class="right-paw2">
+        <hr class="right-paw3">
+        <hr class="right-paw4">
+           </div>
+    </div>
+    <span><a href="https://github.com/Themvp07">SIMON LEON</a></span>
+  </body>
+</html>
