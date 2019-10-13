@@ -8,6 +8,8 @@ Proyecto para recolectar código en html y css para crear imágenes de diferente
 
 # Instrucciones
 
++ Por favor revisar los animales creados para no repetir
++ Si repites animal cambia la forma o estilo, para tener diferentes diseños
 + Crear html con el nombre del animal en inglés
 + Usando etiquetas y html solamente crear una representación gráfica del animal
 + No se admiten imágenes
