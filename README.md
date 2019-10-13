@@ -1,5 +1,8 @@
 # CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
++ [Indonesian](https://github.com/xaca/css_zoo/blob/master/README-id.md)
++ [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
+
 Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
 # Instrucciones
