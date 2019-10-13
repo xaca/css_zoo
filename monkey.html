@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monkey</title>
+    <style>
+
+      body {
+        background: #fafafa;
+        padding-top: 100px;
+      }
+
+      .monkey {
+        height: 420px;
+        width: 520px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .head {
+        background: rgb(130,92,64);
+        background: linear-gradient(0deg, rgba(130, 92, 64, 1) 0%, rgba(169, 124, 80, 1) 50%);
+        border: 10px solid #8b5e3c;
+        border-radius: 400px;
+        height: 410px;
+        left: 50px;
+        position: absolute;
+        width: 400px;
+        z-index: 2;
+      }
+
+      .ear-left,
+      .ear-right {
+        background: #e6b175;
+        border: 10px solid #8b5e3c;
+        border-radius: 250px;
+        height: 200px;
+        position: absolute;
+        width: 250px;
+        top: 100px;
+        z-index: 1;
+      }
+
+      .ear-left {
+        left: 10px;
+      }
+
+      .ear-right {
+        right: 10px;
+      }
+
+      .mask-1,
+      .mask-2,
+      .mask-3 {
+        background: #e6b175;
+        position: absolute;
+        z-index: 3;
+      }
+
+      .mask-1,
+      .mask-2 {
+        border-radius: 150px;
+        height: 160px;
+        top: 90px;
+        width: 160px;
+      }
+
+      .mask-1 {
+        left: 100px;
+      }
+
+      .mask-2 {
+        right: 100px;
+      }
+
+      .mask-3 {
+        border-radius: 50%;
+        height: 230px;
+        left: 120px;
+        top: 160px;
+        width: 280px;
+      }
+
+      .eye-left,
+      .eye-right {
+        background: #404040;
+        border-radius: 80px;
+        height: 70px;
+        position: absolute;
+        width: 60px;
+        z-index: 4;
+        top: 150px;
+      }
+
+      .eye-left {
+        left: 150px;
+      }
+
+      .eye-right {
+        right: 150px;
+      }
+
+      .nose-left,
+      .nose-right {
+        background: #404040;
+        border-radius: 80px;
+        height: 30px;
+        position: absolute;
+        width: 20px;
+        z-index: 4;
+        top: 230px;
+      }
+
+      .nose-left {
+        left: 230px;
+      }
+
+      .nose-right {
+        right: 230px;
+      }
+
+      .tongue {
+        background: #ff4f4f;
+        border-radius: 50%;
+        height: 70px;
+        left: 120px;
+        position: absolute;
+        top: 60px;
+        width: 110px;
+        z-index: 5;
+      }
+
+      .teeth {
+        background: #fff;
+        border-radius: 50%;
+        height: 40px;
+        left: 80px;
+        position: absolute;
+        top: -20px;
+        width: 200px;
+      }
+
+      .mouth {
+        background: #404040;
+        clip-path: circle(20% at 50% 0%);
+        border-radius: 80px;
+        height: 500px;
+        left: 85px;
+        overflow: hidden;
+        position: absolute;
+        top: 280px;
+        width: 350px;
+        z-index: 4;
+      }
+
+      .author {
+        margin-top: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="monkey">
+      <div class="mask-1"></div>
+      <div class="mask-2"></div>
+      <div class="mask-3"></div>
+
+      <div class="eye-left"></div>
+      <div class="eye-right"></div>
+
+      <div class="nose-left"></div>
+      <div class="nose-right"></div>
+
+      <div class="mouth">
+        <div class="teeth"></div>
+        <div class="tongue"></div>
+      </div>
+
+      <div class="head"></div>
+
+      <div class="ear-left"></div>
+      <div class="ear-right"></div>
+    </div>
+
+    <p class="author">
+      <a href="https://github.com/decabeza">Alberto decabeza</a>
+    </p>
+  </body>
+</html>
