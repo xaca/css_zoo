@@ -1,4 +1,4 @@
-# CSS ZOO: pig:: frog:: bee:: beetle:: lion:
+# CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
 Project to collect code in html and css to create images of different animals
 
