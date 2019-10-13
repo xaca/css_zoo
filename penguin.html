@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penguin</title>
+
+    <style>
+        body {
+            background: #f0f0f0;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .penguin {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .penguin__head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            background: #333;
+            border-radius: 100%;
+        }
+
+        .penguin__eyes {
+            display: flex;
+            justify-content: space-between;
+            width: 60px;
+        }
+
+        .penguin__eye {
+            position: relative;
+            width: 15px;
+            height: 20px;
+            background: #fff;
+            border-radius: 100%;
+        }
+
+        .penguin__eye:after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 15px;
+            background: #333;
+            border-radius: 100%;
+        }
+
+        .penguin__beak {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid orangered;
+        }
+
+        .penguin__body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 150px;
+            height: 200px;
+            margin-top: -30px;
+            background: #333;
+            border-radius: 100%;
+        }
+
+        .penguin__belly {
+            width: 100px;
+            height: 150px;
+            background: #fff;
+            border-radius: 100%;
+        }
+
+        .penguin__feets {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 70px;
+            margin-top: -5px;
+        }
+
+        .penguin__feet {
+            width: 30px;
+            height: 15px;
+            background: orangered;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="penguin">
+            <div class="penguin__head">
+                <div class="penguin__eyes">
+                    <div class="penguin__eye"></div>
+                    <div class="penguin__eye"></div>
+                </div>
+                <div class="penguin__beak"></div>
+            </div>
+            <div class="penguin__body">
+                <div class="penguin__belly"></div>
+            </div>
+            <div class="penguin__feets">
+                <div class="penguin__feet"></div>
+                <div class="penguin__feet"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
