@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mole</title>
+
+    <style>
+      .mole {
+        --size: 32px;
+        width: var(--size);
+        position: relative;
+        margin: 0 calc(var(--size) / 16) calc(var(--size) / 8);
+        height: calc(var(--size) * 1.5);
+        display: inline-block;
+        box-shadow: calc(var(--size) / 5.3333) calc(var(--size) / 4) 0
+            calc(var(--size) / -8) #3e2723,
+          calc(var(--size) / -5.3333) calc(var(--size) / 4) 0 calc(var(--size) / -8)
+            #3e2723;
+        border-radius: 9999px 9999px 0 0;
+        border-left: #424242 calc(var(--size) / 8) solid;
+        background-color: #616161;
+      }
+
+      .mole::before {
+        border-bottom: black calc(var(--size) / 6.4) dotted;
+        border-top: #eeeeee calc(var(--size) / 12) dashed;
+        content: " ";
+        display: block;
+        height: 0;
+        position: absolute;
+        right: calc(var(--size) / 4.5);
+        top: calc(var(--size) / 3);
+        width: calc(var(--size) / 2.5714);
+      }
+
+      .mole::after {
+        animation: giggle 3s infinite;
+        background-color: #f44336;
+        border-left: #c62828 calc(var(--size) / 16) solid;
+        border-radius: 50%;
+        box-sizing: border-box;
+        content: " ";
+        display: block;
+        height: calc(var(--size) / 4);
+        position: absolute;
+        right: 0;
+        top: calc(var(--size) / 1.7);
+        width: calc(var(--size) / 4);
+      }
+
+      @keyframes giggle {
+        0%,
+        100% {
+          animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          transform: translateX(calc(var(--size) / 10.6667)) translateY(0);
+        }
+        8% {
+          animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+          transform: translateX(calc(var(--size) / 10.6667))
+            translateY(calc(var(--size) / -8));
+        }
+        15% {
+          transform: translateX(calc(var(--size) / 10.6667)) translateX(0);
+        }
+      }
+    </style>
+  </head>
+  <body style="font-family:sans-serif;text-align:center;margin:2rem">
+    <!-- You can specific the size by using CSS Variable as follow: -->
+    <div class="mole" style="--size:45vh"></div>
+    <div style="margin-top:1rem"
+      >Designed by <a href="https://github.com/rootEnginear">rootEnginear</a></div
+    >
+  </body>
+</html>
