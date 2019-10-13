@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gato</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .gato{
+            position: relative;
+            top: 33px;
+            width: 290px;
+            height: 250px;  
+            margin-bottom: 20px;
+        }
+        .circle{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 250px;
+            height: 120px;
+            border: 2px solid #000;
+            border-radius: 50%;
+            background-color: #000;
+            z-index: 1;
+        }
+           
+
+        .ear {
+            position: fixed;
+     width: 0; 
+     height: 0; 
+     border-left: 65px solid #000000;
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent; 
+}   
+
+        .left {
+            top: 0px;
+            left: 550px;
+        }
+        .rigth {
+            top: 0px;
+            right: 590px;
+            transform: rotate(-180deg);
+        }
+       
+        .paralelogramo {
+     width: 70px; 
+     height: 50px; 
+     border: 2px solid #555; 
+     background: #ffffff;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(50deg);
+     -ms-transform: skew(50deg);
+     -o-transform: skew(50deg);
+     transform: skew(50deg);
+     border-radius: 15%;
+    }
+
+    .ojos {
+     width: 70px;
+     height: 50px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 10% / 0 100%;
+     border-radius: 0 70% / 0 100%;
+     background: #f5f7f5;
+     border: 3px solid rgb(124, 121, 121);
+   }
+
+   .ojo-int {
+     width: 40px;
+     height: 25px;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 20% / 0 100%;
+     border-radius: 0 60% / 0 100%;
+     background: #000000;
+   }
+
+        .eye-block{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .eye:first-child{
+            margin-right: 10px;
+        }
+     
+        .eye-left {
+            transform: rotate(1deg);
+        }
+        .eye-rigth {
+            transform: rotate(110deg);
+        }
+        .eye-left .ojo-int{
+            margin: 10px 10px 5px 5px;
+            transform: rotate(90deg);       
+        }
+        .eye-rigth .ojo-int{
+            margin: 10px 5px 5px 10px;
+            transform: rotate(120deg);  
+        }
+    
+        .mounth {
+            position: relative;
+        }
+        .mounth-top {
+            width: 2px;
+            margin-top: -10px; 
+            height: 15px;
+            background-color: black;
+        }
+        .mounth-bottom {
+            position: absolute;
+            border-bottom: 2px solid black;
+            width: 20px;
+            height: 10px;
+            margin-top: -10px;
+            border-radius: 10px;
+            left: -18px;
+        }
+        .mounth-bottom-rigth {
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="gato">
+        <!---->
+        <div class="ear left"></div>
+        <div class="ear rigth"></div>
+        <div class="circle">
+            <div class="eye-block">
+                <div class="ojos eye-left">
+                   <div class="ojo-int">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="ojos eye-rigth">
+                     <div class="ojo-int">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mounth">
+                <div class="mounth-top"></div>
+                <div class="mounth-bottom"></div>
+                <div class="mounth-bottom mounth-bottom-rigth"></div>
+            </div>
+        </div>
+    </div>
+    <span><a href="https://github.com/Andre-rsfc">alealch</a></span>
+</body>
+</html>
