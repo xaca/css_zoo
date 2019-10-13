@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monkey</title>
+    <style>
+      .box {
+        position: relative;
+        margin: auto;
+        display: block;
+        margin-top: 8%;
+        width: 600px;
+        height: 420px;
+        background: none;
+      }
+      .head {
+        position: absolute;
+        top: 16.5%;
+        left: 25%;
+        width: 50%;
+        height: 67%;
+        background: #804000;
+        border-radius: 50%;
+      }
+      .head-copy {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #804000;
+        border-radius: 50%;
+        z-index: 2;
+      }
+      .ear-left {
+        position: absolute;
+        width: 30%;
+        height: 33%;
+        left: -8%;
+        top: 18%;
+        background: #8B4513;
+        border-radius: 50%;
+        z-index: 1;
+        animation: spinMe 3s infinite;
+      }
+      .ear-right {
+        position: absolute;
+        width: 30%;
+        height: 33%;
+        right: -8%;
+        top: 18%;
+        background: #8B4513;
+        border-radius: 50%;
+        z-index: 1;
+        animation: spinMe 3s infinite;
+      }
+      .inner-ear {
+        position: absolute;
+        border-radius: 50%;
+        width: 80%;
+        height: 80%;
+        top: 10%;
+        left: 10%;
+        background: #DEB887;
+      }
+      .eye-left {
+        position: absolute;
+        background:#DEB887;
+        width: 45%;
+        height: 49%;
+        top: 25%;
+        left: 10%;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .eye-right {
+        position: absolute;
+        background: #DEB887;
+        width: 45%;
+        height: 49%;
+        top: 25%;
+        right: 10%;
+        border-radius: 50%;
+        z-index: 3;
+      }
+      .pupil {
+        position: absolute;
+        width: 28%;
+        height: 30%;
+        top: 35%;
+        left: 36%;
+        border-radius: 50%;
+        background: #000000;
+      }
+      .nose {
+        position: absolute;
+        background: #DEB887;
+        width: 43%;
+        height: 52%;
+        left: 28%;
+        top: 52%;
+        border-radius: 64px;
+        z-index: 4;
+      }
+      .nostril-left{
+        position: absolute;
+        width: 4%;
+        height: 8%;
+        left: 43%;
+        top: 65%;
+        border-radius: 50%;
+        background: #000000;
+        z-index: 4;
+      }
+      .nostril-right{
+        position: absolute;
+        width: 4%;
+        height: 8%;
+        right: 43%;
+        top: 65%;
+        border-radius: 50%;
+        background: #000000;
+        z-index: 4;
+      }
+      .mouth{
+        position: absolute;
+        width: 33%;
+        height: 15%;
+        left: 33%;
+        top: 80%;
+        border-radius:0px 0px 50px 50px;
+        background: #B22222;
+        z-index: 4;
+      }
+      .tie-left{
+        position: absolute;
+         width: 0; 
+         height: 0; 
+         top: 79%;
+         left: 40%;
+         border-left: 80px solid #DC143C;
+         border-top: 40px solid transparent;
+         border-bottom: 40px solid transparent; 
+         z-index: 5;
+      }
+      .tie-right{
+         position: absolute;
+         width: 0; 
+         height: 0; 
+         top: 79%;
+         right: 40%;
+         border-right: 80px solid #DC143C;
+         border-top: 40px solid transparent;
+         border-bottom: 40px solid transparent;
+         z-index: 5; 
+      }
+      .circle{
+       position: absolute;
+        width: 5%;
+        height: 5%;
+        top: 86%;
+        left: 47%;
+        border-radius: 50%;
+        background: #B22222;
+        z-index: 5;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="head">
+        <div class="head-copy"></div>
+        <div class="ear-left">
+          <div class="inner-ear"></div>
+        </div>
+        <div class="ear-right">
+          <div class="inner-ear"></div>
+        </div>
+        <div class="eye-left">
+          <div class="pupil"></div>
+        </div>
+        <div class="eye-right">
+          <div class="pupil"></div>
+        </div>
+        <div class="nose"></div>
+          <div class="nostril-left"></div>
+          <div class="nostril-right"></div>
+          <div class="mouth"></div>
+      </div>
+      <div class="tie-left"></div>
+      <div class="tie-right"></div>
+      <div class="circle"></div>
+    </div>
+  </body>
+  <footer><span><a href="https://github.com/Les9616">Lesly Muñoz</a></span></footer>
+</html>
