@@ -1,1 +1,102 @@
-I will make a cranebird here
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cranebird</title>
+        <style type="text/css">
+            body {
+              background-color: #33B0FF;
+            }
+
+            .container {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 500px;
+              height: 500px;
+            }
+
+            #head {
+              position: absolute;
+              clip-path: polygon(6% 100%, 18% 0, 100% 0);
+              background-color: #DAF7A6;
+              width: 120px;
+              height: 120px;
+            }
+
+            #neck {
+              position: absolute;
+              clip-path: polygon(69% 0, 94% 21%, 51% 100%, 0 55%);
+              background-color: #FF5733;
+              width: 100px;
+              height: 100px;
+              left: 50px;
+            }
+
+            #torso {
+              position: absolute;
+              clip-path: polygon(69% 0, 94% 9%, 68% 100%, 0 58%);
+              background-color: #FFC300;
+              width: 200px;
+              height: 500px;
+              top: 15px;
+            }
+
+            #body {
+              position: absolute;
+              clip-path: polygon(7% 45%, 100% 25%, 79% 100%, 3% 99%);
+              background-color: #FFF ;
+              width: 400px;
+              height: 300px;
+              top: 215px;
+              left: 131px;
+            }
+
+            #wingfront {
+              position: absolute;
+              clip-path: polygon(0 45%, 51% 16%, 100% 81%, 0% 100%);
+              background-color: #FF5733;
+              width: 420px;
+              height: 300px;
+              top: 215px;
+              left: 135px;
+            }
+
+            #wingback {
+              position: absolute;
+              clip-path: polygon(0 45%, 51% 16%, 100% 61%, 0% 100%);
+              background-color: #DAF7A6;
+              width: 420px;
+              height: 300px;
+              top: 215px;
+              left: 135px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class='container'>
+  <div id="backside">
+        <div id="wingback"></div>
+        <div id="body"></div>
+    <div id="wingfront"></div>
+
+
+  </div>
+
+  <div id="tophalf">
+    <div id="neck"></div>
+    <div id="head"></div>
+    <div id="torso"></div>
+  </div>
+
+</div>
+                <div class="name">
+                    <span><a href="https://github.com/perSimone">Simone</a></span>
+                </div>
+        </div>        
+    </body>
+</html>
