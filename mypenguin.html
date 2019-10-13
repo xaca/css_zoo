@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset='utf-8'>
+            <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+            <title>Penguin</title>
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <link rel='stylesheet' type='text/css' media='screen' href='penguin.css'>
+
+</head>
+<style>
+            .box{
+            position: relative;
+            margin: auto;
+            display: block;
+            margin-top: 8%;
+            width: 600px;
+            height: 420px;
+            background: none;
+}
+
+.head{
+            position: absolute;
+            width: 50%;
+            height: 70%;
+            background: black;
+            border-radius: 50%;
+            z-index: 1;
+}
+.face{
+            position: absolute;
+        border-radius: 90%;
+        width: 80%;
+        height: 60%;
+        top: 15%;
+        left: 10%;
+        background: whitesmoke;
+}
+.eye-left {
+            position: absolute;
+            background: white;
+            width: 30%;
+            height: 33%;
+            top: 25%;
+            left: 21%;
+            border-radius: 50%;
+            z-index: 3;
+          }
+          .eye-right {
+            position: absolute;
+            background: white;
+            width: 30%;
+            height: 33%;
+            top: 25%;
+            right: 21%;
+            border-radius: 50%;
+            z-index: 3;
+          }
+          .pupil {
+            position: absolute;
+            width: 28%;
+            height: 30%;
+            top: 35%;
+            left: 36%;
+            border-radius: 50%;
+            background: #27354a;
+          }
+.nose {
+            position: absolute;
+            top: 30%;
+            width: 20%; 
+            height: 0; 
+            border-left: 50px solid #f0ad4e;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent; 
+            transform: rotate(-159deg) skewX(-23deg) scale(1, .866);
+            z-index: 2;
+       }
+       .middle{
+   position: absolute;
+   margin-left: 110px;
+   top: 10%;
+            width: 0px;
+            height: 0px;
+            border-right: 40px solid transparent;
+            border-left: 40px solid transparent;
+            border-top: 70px solid black;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            z-index: 2;
+        }
+</style>
+<body>
+            <div class="box">
+                        <div class="head">
+                                    <div class="face">
+
+                                    </div>
+                                    <div class="eye-right">
+                                                <div class="pupil"></div>
+                                    </div>
+                                    <div class="middle">
+
+                                    </div>
+                                    <div class="eye-left">
+                                                <div class="pupil"></div>
+                                    </div>
+                        </div>
+                        <div class="nose">
+
+                        </div>
+
+            </div>
+            <span>
+                        <a href="https://github.com/LRK1696"> Renatto Oyague - Adathink Lab Member</a>
+            </span>
+</body>
+
+</html>
