@@ -1,0 +1,1411 @@
+/*
+################
+               CSS ZOO
+################
+*/
+
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.css-zoo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+}
+
+.css-zoo__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.css-zoo__item {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-sizing: border-box;
+  flex: 1 1 calc(25% - 16px);
+  list-style: none;
+  margin: 8px;
+  max-height: 420px;
+  min-height: 240px;
+  min-width: 320px;
+  position: relative;
+}
+
+.css-zoo__content {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: calc(100% - 34px);
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.css-zoo__item-footer {
+  font-family: sans-serif;
+  padding: 8px;
+  text-align: center;
+}
+
+/*
+################
+               Bear by Huzaifa Ahmed
+################
+*/
+
+#bear .bear {
+  height: 370px;
+  text-align: center;
+  position: relative;
+}
+
+/*HEAD*/
+#bear .head {
+  border-radius: 50%;
+  width: 200px;
+  height: 170px;
+  background: rgb(232, 165, 84); /* Old browsers */
+  background: -moz-linear-gradient(
+  top,
+  rgba(232, 165, 84, 1) 40%,
+  rgba(219, 145, 74, 1) 99%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(40%, rgba(232, 165, 84, 1)),
+  color-stop(99%, rgba(219, 145, 74, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  top,
+  rgba(232, 165, 84, 1) 40%,
+  rgba(219, 145, 74, 1) 99%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  top,
+  rgba(232, 165, 84, 1) 40%,
+  rgba(219, 145, 74, 1) 99%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  top,
+  rgba(232, 165, 84, 1) 40%,
+  rgba(219, 145, 74, 1) 99%
+  ); /* IE10+ */
+  background: linear-gradient(
+  to bottom,
+  rgba(232, 165, 84, 1) 40%,
+  rgba(219, 145, 74, 1) 99%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a554', endColorstr='#db914a',GradientType=0 ); /* IE6-9 */
+  position: relative;
+  z-index: 10;
+  top: 15px;
+  margin: 0 auto;
+}
+
+/*Ears*/
+#bear .ears {
+  position: relative;
+  z-index: 1;
+}
+
+#bear .ear1,
+#bear .ear2 {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  position: relative;
+  background: rgb(239, 199, 103); /* Old browsers */
+  background: -moz-linear-gradient(
+  top,
+  rgba(239, 199, 103, 1) 0%,
+  rgba(202, 124, 58, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0%, rgba(239, 199, 103, 1)),
+  color-stop(100%, rgba(202, 124, 58, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  top,
+  rgba(239, 199, 103, 1) 0%,
+  rgba(202, 124, 58, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  top,
+  rgba(239, 199, 103, 1) 0%,
+  rgba(202, 124, 58, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  top,
+  rgba(239, 199, 103, 1) 0%,
+  rgba(202, 124, 58, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+  to bottom,
+  rgba(239, 199, 103, 1) 0%,
+  rgba(202, 124, 58, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc767', endColorstr='#ca7c3a',GradientType=0 ); /* IE6-9 */
+}
+
+#bear .inner_ear {
+  bottom: 16px;
+  height: 50px;
+  position: absolute;
+  right: 13px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgb(151, 93, 45); /* Old browsers */
+  background: -moz-linear-gradient(
+  top,
+  rgba(151, 93, 45, 1) 0%,
+  rgba(111, 67, 38, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0%, rgba(151, 93, 45, 1)),
+  color-stop(100%, rgba(111, 67, 38, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  top,
+  rgba(151, 93, 45, 1) 0%,
+  rgba(111, 67, 38, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  top,
+  rgba(151, 93, 45, 1) 0%,
+  rgba(111, 67, 38, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  top,
+  rgba(151, 93, 45, 1) 0%,
+  rgba(111, 67, 38, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+  to bottom,
+  rgba(151, 93, 45, 1) 0%,
+  rgba(111, 67, 38, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#975d2d', endColorstr='#6f4326',GradientType=0 ); /* IE6-9 */
+}
+
+#bear .ear2,
+#bear .leg1 {
+  float: right;
+}
+
+#bear .ear1,
+#bear .leg2 {
+  float: left;
+}
+
+/*Eyes*/
+#bear .eye1,
+#bear .eye2 {
+  border-radius: 50%;
+  background: rgb(226, 160, 76); /* Old browsers */
+  background: -moz-linear-gradient(
+  -45deg,
+  rgba(226, 160, 76, 1) 0%,
+  rgba(239, 175, 88, 1) 99%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(0%, rgba(226, 160, 76, 1)),
+  color-stop(99%, rgba(239, 175, 88, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  -45deg,
+  rgba(226, 160, 76, 1) 0%,
+  rgba(239, 175, 88, 1) 99%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  -45deg,
+  rgba(226, 160, 76, 1) 0%,
+  rgba(239, 175, 88, 1) 99%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  -45deg,
+  rgba(226, 160, 76, 1) 0%,
+  rgba(239, 175, 88, 1) 99%
+  ); /* IE10+ */
+  background: linear-gradient(
+  135deg,
+  rgba(226, 160, 76, 1) 0%,
+  rgba(239, 175, 88, 1) 99%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a04c', endColorstr='#efaf58',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  width: 50px;
+  height: 70px;
+  display: inline-block;
+  position: absolute;
+  top: -43px;
+  left: 42px;
+}
+
+#bear .eyes {
+  position: relative;
+  width: 110px;
+}
+
+#bear .eye1 {
+  position: relative;
+  transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg); /* IE 9 */
+  -webkit-transform: rotate(-25deg); /* Safari and Chrome */
+  float: left;
+}
+
+#bear .eye1:before,
+#bear .eye2:before {
+  border-top: 5px solid #89542a;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 49px;
+}
+
+#bear .eye2 {
+  position: relative;
+  transform: rotate(25deg);
+  -ms-transform: rotate(25deg); /* IE 9 */
+  -webkit-transform: rotate(25deg); /* Safari and Chrome */
+  float: right;
+}
+
+#bear .eyeball1,
+#bear .eyeball2 {
+  background: rgb(153, 86, 44); /* Old browsers */
+  background: -moz-linear-gradient(
+  45deg,
+  rgba(153, 86, 44, 1) 10%,
+  rgba(109, 70, 39, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left bottom,
+  right top,
+  color-stop(10%, rgba(153, 86, 44, 1)),
+  color-stop(100%, rgba(109, 70, 39, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  45deg,
+  rgba(153, 86, 44, 1) 10%,
+  rgba(109, 70, 39, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  45deg,
+  rgba(153, 86, 44, 1) 10%,
+  rgba(109, 70, 39, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  45deg,
+  rgba(153, 86, 44, 1) 10%,
+  rgba(109, 70, 39, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+  45deg,
+  rgba(153, 86, 44, 1) 10%,
+  rgba(109, 70, 39, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99562c', endColorstr='#6d4627',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-radius: 50%;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+#bear .eyeball1 {
+  left: 12px;
+  top: 17px;
+}
+
+#bear .eyeball1:before,
+#bear .eyeball2:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #ffffff;
+  position: relative;
+  top: 3px;
+  width: 8px;
+}
+
+#bear .eyeball2 {
+  left: 17px;
+  top: 17px;
+}
+
+/*Muzzle*/
+#bear .muzzle {
+  background-color: #e5ca9d;
+  border-radius: 50%;
+  display: block;
+  height: 54px;
+  left: 54px;
+  position: relative;
+  top: 103px;
+  width: 84px;
+}
+
+#bear .nose {
+  background-color: #6a4528;
+  border-radius: 70% / 70% 70% 131% 131%;
+  height: 36px;
+  width: 58px;
+  position: relative;
+  left: 12px;
+}
+
+#bear .mouth {
+  border-bottom: 2px solid #78421c;
+  border-radius: 0 0 90px 90px;
+  height: 20px;
+  left: 12px;
+  position: relative;
+  top: -10px;
+  width: 60px;
+}
+#bear .nose:after {
+  background-color: #ff0000;
+  content: "";
+  display: block;
+  height: 14px;
+  left: 27px;
+  position: relative;
+  top: 34px;
+  width: 2px;
+  background-color: #78421c;
+}
+
+/*BELLY*/
+#bear .belly {
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  width: 200px;
+  height: 200px;
+  background: rgb(211, 132, 66); /* Old browsers */
+  background: -moz-radial-gradient(
+  center,
+  ellipse cover,
+  rgba(211, 132, 66, 1) 48%,
+  rgba(183, 91, 38, 1) 99%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  radial,
+  center center,
+  0px,
+  center center,
+  100%,
+  color-stop(48%, rgba(211, 132, 66, 1)),
+  color-stop(99%, rgba(183, 91, 38, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(
+  center,
+  ellipse cover,
+  rgba(211, 132, 66, 1) 48%,
+  rgba(183, 91, 38, 1) 99%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(
+  center,
+  ellipse cover,
+  rgba(211, 132, 66, 1) 48%,
+  rgba(183, 91, 38, 1) 99%
+  ); /* Opera 12+ */
+  background: -ms-radial-gradient(
+  center,
+  ellipse cover,
+  rgba(211, 132, 66, 1) 48%,
+  rgba(183, 91, 38, 1) 99%
+  ); /* IE10+ */
+  background: radial-gradient(
+  ellipse at center,
+  rgba(211, 132, 66, 1) 48%,
+  rgba(183, 91, 38, 1) 99%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d38442', endColorstr='#b75b26',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  clear: both;
+  position: relative;
+  top: -40px;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+#bear .belly_inner1,
+.belly_inner2 {
+  background-color: #fdedd3;
+  border-radius: 60% / 90% 90% 30% 30%;
+  height: 120px;
+  position: relative;
+  top: 64px;
+  width: 90px;
+  display: inline-block;
+}
+
+#bear .belly_inner1:after {
+  background-color: #fdedd3;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 90px;
+  left: 18px;
+  position: relative;
+  top: 34px;
+  width: 90px;
+}
+
+#bear .belly_inner1 {
+  left: 31px;
+}
+
+#bear .belly_inner2 {
+  right: 31px;
+}
+
+/*HANDS*/
+#bear .hands {
+  position: absolute;
+  width: 238px;
+}
+
+#bear .hand1,
+#bear .hand2 {
+  background: rgb(216, 137, 70); /* Old browsers */
+  background: -moz-linear-gradient(
+  -45deg,
+  rgba(216, 137, 70, 1) 14%,
+  rgba(229, 173, 76, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(14%, rgba(216, 137, 70, 1)),
+  color-stop(100%, rgba(229, 173, 76, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  -45deg,
+  rgba(216, 137, 70, 1) 14%,
+  rgba(229, 173, 76, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  -45deg,
+  rgba(216, 137, 70, 1) 14%,
+  rgba(229, 173, 76, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  -45deg,
+  rgba(216, 137, 70, 1) 14%,
+  rgba(229, 173, 76, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+  135deg,
+  rgba(216, 137, 70, 1) 14%,
+  rgba(229, 173, 76, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d88946', endColorstr='#e5ad4c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 106px;
+  left: -20px;
+  position: relative;
+  top: -30px;
+  width: 54px;
+  z-index: 1;
+}
+
+#bear .hand1 {
+  transform: rotate(45deg);
+  transform-origin: 60% 40%;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+  float: left;
+
+  -webkit-animation: wave 5s infinite; /* Safari 4+ */
+  -moz-animation: wave 5s infinite; /* Fx 5+ */
+  -o-animation: wave 5s infinite; /* Opera 12+ */
+  animation: wave 5s infinite; /* IE 10+ */
+}
+
+#bear .hand2 {
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+  float: right;
+}
+
+/*LEGS*/
+#bear .legs {
+  left: -11px;
+  position: relative;
+  top: -109px;
+  z-index: 10;
+}
+
+#bear .leg1,
+#bear .leg2 {
+  border-radius: 50%;
+  width: 90px;
+  height: 112px;
+  border: 1px solid #e4a241;
+  background: rgb(223, 154, 76); /* Old browsers */
+  background: -moz-linear-gradient(
+  -45deg,
+  rgba(223, 154, 76, 1) 41%,
+  rgba(213, 132, 67, 1) 90%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(41%, rgba(223, 154, 76, 1)),
+  color-stop(90%, rgba(213, 132, 67, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  -45deg,
+  rgba(223, 154, 76, 1) 41%,
+  rgba(213, 132, 67, 1) 90%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  -45deg,
+  rgba(223, 154, 76, 1) 41%,
+  rgba(213, 132, 67, 1) 90%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  -45deg,
+  rgba(223, 154, 76, 1) 41%,
+  rgba(213, 132, 67, 1) 90%
+  ); /* IE10+ */
+  background: linear-gradient(
+  135deg,
+  rgba(223, 154, 76, 1) 41%,
+  rgba(213, 132, 67, 1) 90%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df9a4c', endColorstr='#d58443',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#bear .leg1 {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari and Chrome */
+}
+
+#bear .leg2 {
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+}
+
+#bear .foot {
+  background: rgb(226, 200, 151); /* Old browsers */
+  background: -moz-linear-gradient(
+  -45deg,
+  rgba(226, 200, 151, 1) 14%,
+  rgba(253, 237, 211, 1) 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(14%, rgba(226, 200, 151, 1)),
+  color-stop(100%, rgba(253, 237, 211, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+  -45deg,
+  rgba(226, 200, 151, 1) 14%,
+  rgba(253, 237, 211, 1) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+  -45deg,
+  rgba(226, 200, 151, 1) 14%,
+  rgba(253, 237, 211, 1) 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+  -45deg,
+  rgba(226, 200, 151, 1) 14%,
+  rgba(253, 237, 211, 1) 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+  135deg,
+  rgba(226, 200, 151, 1) 14%,
+  rgba(253, 237, 211, 1) 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2c897', endColorstr='#fdedd3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  border-radius: 50%;
+  width: 70px;
+  height: 90px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+/*
+################
+               Cat by Melissa Casas
+################
+*/
+
+#cat .head {
+  position: absolute;
+  top: 16.5%;
+  left: calc(50% - (320px / 2));
+  width: 320px;
+  height: 50%;
+  background: #A6BECF;
+  border-radius: 50%;
+}
+
+#cat .head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#cat .ear-left {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  left: 6%;
+  top: 0%;
+  background: #000000;
+  border-radius: 50%;
+  transform: rotate(160deg);
+  z-index: 1;
+}
+
+#cat .ear-right {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  right: 6%;
+  top: 0%;
+  background: #000000;
+  border-radius: 50%;
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+#cat .inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #E090A1;
+}
+
+#cat .eye-left {
+  position: absolute;
+  background: #ffff00;
+  width: 20%;
+  height: 20%;
+  top: 37%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#cat .eye-right {
+  position: absolute;
+  background: #ffff00;
+  width: 20%;
+  height: 20%;
+  top: 37%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#cat .pupil {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  top: 15%;
+  left: 30%;
+  border-radius: 50%;
+  background: #000000;
+}
+
+#cat .nose {
+  position: absolute;
+  background: #E090A1;
+  width: 15%;
+  height: 9.5%;
+  left: 43%;
+  top: 65%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+#cat .author {
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/*
+################
+               cat_jazz by Antony Albites
+################
+*/
+
+#cat_jazz .cat {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+#cat_jazz .face {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 215px;
+  height: 140px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+#cat_jazz .ear {
+  position: absolute;
+  top: 7px;
+  width: 60px;
+  height: 55px;
+  background-color: black;
+  border-radius: 5%;
+}
+
+#cat_jazz .left {
+  left: 3px;
+}
+
+#cat_jazz .rigth {
+  right: 3px;
+}
+
+#cat_jazz .eye-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cat_jazz .eye:first-child {
+  margin-right: 10px;
+}
+
+#cat_jazz .eye {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 25px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+#cat_jazz .eye-internal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#cat_jazz .nose {
+  position: relative;
+  background-color: #000;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#cat_jazz .nose:before,
+#cat_jazz .nose:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+#cat_jazz .nose,
+#cat_jazz .nose:before,
+#cat_jazz .nose:after {
+  width: 1em;
+  height: 1em;
+  border-top-right-radius: 0px;
+}
+
+#cat_jazz .nose {
+  transform: rotate(120deg) skewX(-30deg) scale(1, .866);
+}
+
+#cat_jazz .nose:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+#cat_jazz .nose:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+#cat_jazz .mounth {
+  position: relative;
+}
+
+#cat_jazz .mounth-top {
+  width: 2px;
+  margin-top: -10px;
+  height: 15px;
+  background-color: black;
+}
+
+#cat_jazz .mounth-bottom {
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 51px;
+  height: 10px;
+  margin-top: -10px;
+  border-radius: 10px;
+  left: -50px;
+}
+
+#cat_jazz .mounth-bottom-rigth {
+  left: 0;
+}
+
+#cat_jazz .bigote1 {
+  background-color: black;
+  width: 100px;
+  height: 1px;
+  margin-top: 70%;
+}
+
+#cat_jazz .bigote2 {
+  background-color: black;
+  width: 95px;
+  height: 1px;
+  margin-top: 37%;
+  margin-left: -98px;
+}
+
+/*
+################
+               chimpance by Cristian Soncco
+################
+*/
+
+#chimpance .box {
+  position: relative;
+  width: 320px;
+  height: 100%;
+}
+#chimpance .head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: rgb(66, 78, 87);
+  border-radius: 50%;
+}
+#chimpance .head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 2;
+}
+#chimpance .ear-left {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  left: -40%;
+  top: 5%;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#chimpance .ear-right {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  right: -40%;
+  top: 5%;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#chimpance .inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #FFE4B5;
+}
+#chimpance .eye-left {
+  position: absolute;
+  background: #FFE4B5;
+  width: 50%;
+  height: 45%;
+  top: 15%;
+  left: 8%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#chimpance .eye-right {
+  position: absolute;
+  background: #FFE4B5;
+  width: 50%;
+  height: 45%;
+  top: 15%;
+  right: 8%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#chimpance .pupil {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: #27354a;
+}
+#chimpance .nose-right {
+  position: absolute;
+  background: #A0522D;
+  width: 10%;
+  height: 10%;
+  left: 50%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+#chimpance .nose-left {
+  position: absolute;
+  background: #A0522D;
+  width: 10%;
+  height: 10%;
+  left: 38%;
+  top: 45%;
+  border-radius: 20px;
+  z-index: 4;
+}
+
+#chimpance .jaw {
+  position: absolute;
+  background: #FFE4B5;
+  width: 65%;
+  height: 75%;
+  top: 45%;
+  left: 17%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#chimpance .mounth {
+  position: absolute;
+  border-bottom: 4px solid black;
+  bottom: 0;
+  width: 90px;
+  height: 10px;
+  border-radius: 10px;
+  left: calc(50% - 45px);
+  z-index: 4;
+}
+
+/*
+################
+               cranebird by Simone
+################
+*/
+
+#cranebird .container {
+  width: 100%;
+  height: 500px;
+  transform: scale(0.5) translateX(-40%);
+}
+
+#cranebird .head {
+  position: absolute;
+  clip-path: polygon(6% 100%, 18% 0, 100% 0);
+  background-color: #DAF7A6;
+  width: 120px;
+  height: 120px;
+}
+
+#cranebird .neck {
+  position: absolute;
+  clip-path: polygon(69% 0, 94% 21%, 51% 100%, 0 55%);
+  background-color: #FF5733;
+  width: 100px;
+  height: 100px;
+  left: 50px;
+}
+
+#cranebird .torso {
+  position: absolute;
+  clip-path: polygon(69% 0, 94% 9%, 68% 100%, 0 58%);
+  background-color: #FFC300;
+  width: 200px;
+  height: 500px;
+  top: 15px;
+}
+
+#cranebird .body {
+  position: absolute;
+  clip-path: polygon(7% 45%, 100% 25%, 79% 100%, 3% 99%);
+  background-color: #FFF ;
+  width: 400px;
+  height: 300px;
+  top: 215px;
+  left: 131px;
+}
+
+#cranebird .wingfront {
+  position: absolute;
+  clip-path: polygon(0 45%, 51% 16%, 100% 81%, 0% 100%);
+  background-color: #FF5733;
+  width: 420px;
+  height: 300px;
+  top: 215px;
+  left: 135px;
+}
+
+#cranebird .wingback {
+  position: absolute;
+  clip-path: polygon(0 45%, 51% 16%, 100% 61%, 0% 100%);
+  background-color: #DAF7A6;
+  width: 420px;
+  height: 300px;
+  top: 215px;
+  left: 135px;
+}
+
+/*
+################
+               elephant by Sakshi Srivastava
+################
+*/
+
+#elephant .box {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 420px;
+  transform: scale(.8);
+  background: none;
+}
+#elephant .head {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: rgb(66, 78, 87);
+  border-radius: 50%;
+}
+#elephant .head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #4ca4df;
+  border-radius: 50%;
+  z-index: 2;
+}
+#elephant .ear-left {
+  position: absolute;
+  width: 70%;
+  height: 85%;
+  left: -40%;
+  top: 5%;
+  background: #dbdbdb;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#elephant .ear-right {
+  position: absolute;
+  width: 70%;
+  height: 85%;
+  right: -40%;
+  top: 5%;
+  background: #dbdbdb;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#elephant .inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #bebebe;
+}
+#elephant .eye-left {
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#elephant .eye-right {
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#elephant .pupil {
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: #27354a;
+}
+#elephant .nose {
+  position: absolute;
+  background: #bebebe;
+  width: 25%;
+  height: 92.5%;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+/*
+################
+               flying_cat by alealch
+################
+*/
+
+#flying_cat .gato{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#flying_cat .circle{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 120px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #000;
+  z-index: 1;
+}
+
+
+#flying_cat .ear {
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 65px solid #000000;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent; 
+}
+
+#flying_cat .left {
+  top: 0px;
+  left: 10%;
+}
+#flying_cat .rigth {
+  top: 0px;
+  right: 10%;
+  transform: rotate(-180deg);
+}
+
+#flying_cat .paralelogramo {
+  width: 70px; 
+  height: 50px; 
+  border: 2px solid #555; 
+  background: #ffffff;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(50deg);
+  -ms-transform: skew(50deg);
+  -o-transform: skew(50deg);
+  transform: skew(50deg);
+  border-radius: 15%;
+}
+
+#flying_cat .ojos {
+  width: 70px;
+  height: 50px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 10% / 0 100%;
+  border-radius: 0 70% / 0 100%;
+  background: #f5f7f5;
+  border: 3px solid rgb(124, 121, 121);
+}
+
+#flying_cat .ojo-int {
+  width: 40px;
+  height: 25px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 20% / 0 100%;
+  border-radius: 0 60% / 0 100%;
+  background: #000000;
+}
+
+#flying_cat .eye-block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#flying_cat .eye:first-child{
+  margin-right: 10px;
+}
+
+#flying_cat .eye-left {
+  transform: rotate(1deg);
+}
+#flying_cat .eye-rigth {
+  transform: rotate(110deg);
+}
+#flying_cat .eye-left .ojo-int{
+  margin: 10px 10px 5px 5px;
+  transform: rotate(90deg);
+}
+#flying_cat .eye-rigth .ojo-int{
+  margin: 10px 5px 5px 10px;
+  transform: rotate(120deg);
+}
+
+#flying_cat .mounth {
+  position: relative;
+}
+#flying_cat .mounth-top {
+  width: 2px;
+  margin-top: -10px; 
+  height: 15px;
+  background-color: black;
+}
+#flying_cat .mounth-bottom {
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 20px;
+  height: 10px;
+  margin-top: -10px;
+  border-radius: 10px;
+  left: -18px;
+}
+#flying_cat .mounth-bottom-rigth {
+  left: 0;
+}
+
+/*
+################
+               mole by rootEnginear
+################
+*/
+
+#mole .mole {
+  --size: 32px;
+  width: var(--size);
+  position: relative;
+  margin: 0 calc(var(--size) / 16) calc(var(--size) / 8);
+  height: calc(var(--size) * 1.5);
+  display: inline-block;
+  box-shadow: calc(var(--size) / 5.3333) calc(var(--size) / 4) 0
+  calc(var(--size) / -8) #3e2723,
+  calc(var(--size) / -5.3333) calc(var(--size) / 4) 0 calc(var(--size) / -8)
+  #3e2723;
+  border-radius: 9999px 9999px 0 0;
+  border-left: #424242 calc(var(--size) / 8) solid;
+  background-color: #616161;
+  transform: scale(.5);
+}
+
+#mole .mole::before {
+  border-bottom: black calc(var(--size) / 6.4) dotted;
+  border-top: #eeeeee calc(var(--size) / 12) dashed;
+  content: " ";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: calc(var(--size) / 4.5);
+  top: calc(var(--size) / 3);
+  width: calc(var(--size) / 2.5714);
+}
+
+#mole .mole::after {
+  animation: giggle 3s infinite;
+  background-color: #f44336;
+  border-left: #c62828 calc(var(--size) / 16) solid;
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: " ";
+  display: block;
+  height: calc(var(--size) / 4);
+  position: absolute;
+  right: calc(var(--size) / -10.6667);
+  top: calc(var(--size) / 1.7);
+  width: calc(var(--size) / 4);
+}
+
+@keyframes giggle {
+  0%,
+  15%,
+  100% {
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(0);
+  }
+  8% {
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transform: translateY(calc(var(--size) / -8));
+  }
+}
+
+/*
+################
+               [animal id] by [your name]
+################
+*/
