@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background: #fff;
+}
+.bg-light{
+    background: #fff!important;
+}
+.navbar-brand{
+    color: #38404A;
+    font-size: 25px;
+}
+#list-item li a{
+    color: #7A9195;
+    font-size: 20px;
+    
+}
+.header-text{
+    color: #7A9195;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.content-header{
+    color: #313434;
+    font-size: 20px;
+}
+.header-text.dark{
+    color: #7a7d7f
+}
+button.bg-btn{
+    background: #AA9384;
+    font-size: 18px;
+    outline: none;
+}
+.border-image{
+    background-image: url('../img/hallowen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    min-height: 500px;
+    padding: 0;
+}
+.nosotros{
+    position: relative;
+    margin-top: 80px;
+}
+.img-nosotros1 img{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.img-nosotros2 img{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.nosotros-title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.content-nosotros h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: #AA9384;
+}
+.content-nosotros p{
+    font-size: 20px;
+    margin: 0;
+}
+.img-radius{
+    display: block;
+    border-radius: 100%;
+    width: 150px;
+}
+.bloque-2{
+    margin-right: 140px;
+}
+.img-eventos img{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.img-eventos2 img{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.img-eventos1 img{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
