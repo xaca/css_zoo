@@ -1,11 +1,11 @@
-@import '_bear.css';
-@import '_cat.css';
-@import '_cat_jazz.css';
-@import '_chimpance.css';
-@import '_cranebird.css';
-@import '_elephant.css';
-@import '_flying_cat.css';
-@import '_mole.css';
+@import './_bear.css';
+@import './_cat.css';
+@import './_cat_jazz.css';
+@import './_chimpance.css';
+@import './_cranebird.css';
+@import './_elephant.css';
+@import './_flying_cat.css';
+@import './_mole.css';
 
 body {
   background-color: #eee;
