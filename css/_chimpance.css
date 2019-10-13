@@ -1,0 +1,124 @@
+#chimpance .box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#chimpance .head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: rgb(66, 78, 87);
+  border-radius: 50%;
+}
+#chimpance .head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 2;
+}
+#chimpance .ear-left {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  left: -40%;
+  top: 5%;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#chimpance .ear-right {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  right: -40%;
+  top: 5%;
+  background: #A0522D;
+  border-radius: 50%;
+  z-index: 1;
+  animation: spinMe 3s infinite;
+}
+#chimpance .inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #FFE4B5;
+}
+#chimpance .eye-left {
+  position: absolute;
+  background: #FFE4B5;
+  width: 50%;
+  height: 45%;
+  top: 15%;
+  left: 8%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#chimpance .eye-right {
+  position: absolute;
+  background: #FFE4B5;
+  width: 50%;
+  height: 45%;
+  top: 15%;
+  right: 8%;
+  border-radius: 50%;
+  z-index: 3;
+}
+#chimpance .pupil {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: #27354a;
+}
+#chimpance .nose-right {
+  position: absolute;
+  background: #A0522D;
+  width: 10%;
+  height: 10%;
+  left: 50%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+#chimpance .nose-left {
+  position: absolute;
+  background: #A0522D;
+  width: 10%;
+  height: 10%;
+  left: 38%;
+  top: 45%;
+  border-radius: 20px;
+  z-index: 4;
+}
+
+#chimpance .jaw {
+  position: absolute;
+  background: #FFE4B5;
+  width: 65%;
+  height: 75%;
+  top: 45%;
+  left: 17%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+#chimpance .mounth {
+  position: absolute;
+  border-bottom: 4px solid black;
+  width: 90px;
+  height: 10px;
+  margin-top: 240px;
+  border-radius: 10px;
+  left: calc(50% - 45px);
+  z-index: 4;
+}
