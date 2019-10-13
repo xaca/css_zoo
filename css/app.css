@@ -1,4 +1,5 @@
 @import '_bear.css';
+@import '_cat.css';
 
 .css-zoo {
   max-width: 1440px;
@@ -26,9 +27,12 @@
 
 .css-zoo__content {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 8px;
+  position: relative;
+  height: calc(100% - 34px);
 }
 
 .css-zoo__item-footer {
