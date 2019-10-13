@@ -8,7 +8,7 @@ BEAR
 }
 
 /*HEAD*/
-#bear #head {
+#bear .head {
   border-radius: 50%;
   width: 200px;
   height: 170px;
@@ -49,13 +49,13 @@ BEAR
   position: relative;
   z-index: 10;
   top: 15px;
+  margin: 0 auto;
 }
 
 /*Ears*/
 #bear .ears {
   position: relative;
   z-index: 1;
-  width: 200px;
 }
 
 #bear .ear1,
@@ -339,7 +339,7 @@ BEAR
 }
 
 /*BELLY*/
-#bear #belly {
+#bear .belly {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   width: 200px;
   height: 200px;
@@ -387,6 +387,7 @@ BEAR
   position: relative;
   top: -40px;
   z-index: 2;
+  margin: 0 auto;
 }
 
 #bear .belly_inner1,
@@ -498,7 +499,6 @@ BEAR
   left: -11px;
   position: relative;
   top: -109px;
-  width: 225px;
   z-index: 10;
 }
 

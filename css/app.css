@@ -7,6 +7,15 @@
 @import '_flying_cat.css';
 @import '_mole.css';
 
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+.is-hidden {
+  display: none;
+}
+
 .css-zoo {
   max-width: 1440px;
   margin-left: auto;
@@ -21,12 +30,16 @@
 }
 
 .css-zoo__item {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 4px;
   align-items: top;
-  border: 1px solid gray;
   box-sizing: border-box;
-  flex: 0 1 calc(25% - 16px);
+  flex: 1 1 calc(25% - 16px);
   list-style: none;
   margin: 8px;
+  max-height: 420px;
+  min-height: 240px;
   min-width: 320px;
   position: relative;
 }
