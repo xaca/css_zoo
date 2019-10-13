@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <style>
+
+            body {
+                background-color: rgb(238, 182, 176);
+                align-items:center;
+                justify-content: center;
+                display: flex;
+            }
+
+            a {
+                justify-content: center;
+                align-self: flex-end;
+                margin-bottom: 10%;
+                font-size: xx-large;
+                color: #3f6c2b;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .box {
+                position: absolute;
+                width: 360px;
+                height: 260px;
+                margin-top: 230px;
+            }
+            .body {
+                position: absolute;
+                background-color: #8bbc42;
+                width:200px;
+                height: 200px;
+                left: 50px;
+                border-bottom-left-radius: 45%;
+                border-top-right-radius: 45%; 
+                }
+            .wings {
+                position: absolute;
+                bottom: 0%;
+                right: 0%;
+                background-color: #3f6c2b;
+                width: 110px;
+                height: 110px;
+                border-bottom-left-radius: 45%;
+                border-top-right-radius: 45%;
+                z-index: 2;   
+            }
+            .eye {
+                position: absolute;
+                top: 12%;
+                left: 12%;
+                background-color: white;
+                width: 48px;
+                height: 48px;  
+                border-radius: 50%;          
+            } 
+            .pupil {
+                position: absolute;
+                top: 28%;
+                left: 28%;
+                background-color: #444444;
+                width: 22px;
+                height: 22px;
+                border-radius: 50%;
+            }
+            .upper-beak {
+                position: absolute;
+                width: 50px;
+                height: 60px;
+                background-color: #f7ab38;
+                border-top-left-radius: 100%;
+                border-bottom-color: rgb(255, 202, 189);
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                border-bottom-left-radius: 2px;
+                border-bottom-right-radius: 2px;
+            }
+            .down-beak {
+                position: absolute;
+                width: 30px;
+                height: 34px;
+                background-color: #ea8f3e;
+                border-bottom-left-radius: 100%;
+                top: 62px;
+                left: 20px;
+            }
+            .upper-tail {
+                position: absolute;
+                width: 60px;
+                height: 25px;
+                border-top-left-radius: 60px;
+                border-top-right-radius: 60px;
+                background-color: #8bbc42;
+                left: 250px;
+                top: 175px;
+            }
+            .down-tail {
+                position: absolute;
+                width: 25px;
+                height: 60px;
+                border-top-right-radius: 60px;
+                border-bottom-right-radius: 60px;
+                background-color: #8bbc42;
+                left: 250px;
+                top: 200px;
+
+            }
+            .left-leg {
+                position: absolute;
+                width: 8px;
+                height: 32px;
+                border-bottom-left-radius: 28px;
+                border-bottom-right-radius: 28px;
+                background-color: #f7ab38;
+                left: 160px;
+                top: 190px;
+                z-index: 1;
+            }
+            .right-leg {
+                position: absolute;
+                width: 8px;
+                height: 22px;
+                border-bottom-left-radius: 28px;
+                border-bottom-right-radius: 28px;
+                background-color: #f7ab38;
+                left: 140px;
+                top: 200px;
+                z-index: 1;
+
+            }
+            .stick {
+                position: absolute;
+                width: 250px;
+                height: 15px;
+                border-radius: 28px;
+                background-color: #793c0a;
+                left: 100px;
+                top: 216px;
+                z-index: 0;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="upper-beak"></div>
+            <div class="down-beak"></div>
+            <div class="body">
+                <div class="eye">
+                    <div class="pupil"></div>
+                </div>
+                <div class="wings"></div>
+            </div>
+            <div class="upper-tail"></div>
+            <div class="down-tail"></div>
+            <div class="left-leg"></div>
+            <div class="right-leg"></div>
+            <div class="stick"></div>
+        </div>
+        <a href="https://github.com/IraTeixeira">Ira Teixeira</a>
+    </body>
+</html>

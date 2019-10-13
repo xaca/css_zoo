@@ -1,15 +1,9 @@
-# CSS ZOO :pig: :frog: :bee: :beetle: :lion: 
-
-+ [Indonesian](https://github.com/xaca/css_zoo/blob/master/README-id.md)
-+ [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
-+ [Ukrainian](https://github.com/xaca/css_zoo/blob/master/readme_ukrainian.md)
+# CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
 Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
 # Instrucciones
 
-+ Por favor revisar los animales creados para no repetir
-+ Si repites animal cambia la forma o estilo, para tener diferentes diseños
 + Crear html con el nombre del animal en inglés
 + Usando etiquetas y html solamente crear una representación gráfica del animal
 + No se admiten imágenes
