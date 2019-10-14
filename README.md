@@ -1,11 +1,13 @@
 # CSS ZOO :pig: :frog: :bee: :beetle: :lion:
 
-- [Indonesian](https://github.com/xaca/css_zoo/blob/master/readme_indonesian.md)
-- [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
-- [Ukrainian](https://github.com/xaca/css_zoo/blob/master/readme_ukrainian.md)
-- [Portuguese](https://github.com/xaca/css_zoo/blob/master/README_por.md)
+- [English](https://github.com/xaca/css_zoo/blob/master/readme_english.md)
 - [فارسی - Farsi](https://github.com/xaca/css_zoo/blob/master/README_Farsi.md)
+- [Indonesian](https://github.com/xaca/css_zoo/blob/master/readme_indonesian.md)
 - [Javanese](https://github.com/xaca/css_zoo/blob/master/readme_javanese.md)
+- [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
+- [Polish]
+- [Portuguese](https://github.com/xaca/css_zoo/blob/master/README_por.md)
+- [Ukrainian](https://github.com/xaca/css_zoo/blob/master/readme_ukrainian.md)
 
 Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
