@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jellyfish</title>
+</head>
+<style type="text/css">
+body {
+    background: linear-gradient(100deg, #75B1E1, #c9e0f3);
+}
+
+.container {
+    padding: 10rem 50rem;
+    margin: auto;
+}
+
+.jellyfish {
+    animation: up-and-down 2s ease-in-out infinite;
+    height: 20rem;
+    position: relative;
+    width: 20rem;
+}
+
+.jellyfish__head {
+    background: #BC9DBF;
+    border-radius: 50%;
+    height: 14rem;
+    margin: 4rem auto;
+    position: relative;
+    width: 20rem;
+}
+
+.jellyfish__detail {
+    background: #C9AECB;
+    border-radius: 50%;
+    height: 1.5rem;
+    left: 7rem;
+    position: absolute;
+    top: 1rem;
+    width: 1.5rem;
+}
+
+.jellyfish__detail::after {
+    background: #C9AECB;
+    border-radius: 50%;
+    content: '';
+    height: 0.7rem;
+    left: 1.9rem;
+    position: absolute;
+    top: -.5rem;
+    width: 0.7rem;
+}
+
+.jellyfish__detail::before {
+    background: #C9AECB;
+    border-radius: 50%;
+    content: '';
+    height: 1.2rem;
+    position: absolute;
+    right: -1.8rem;
+    top: 0.7rem;
+    width: 1.2rem;
+}
+
+.jellyfish__eyes {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.jellyfish__eyes-eye {
+    animation: blink 7s linear infinite;
+    border: 4px solid #C9AECB;
+    border-radius: 50%;
+    background: #DFECEE;
+    display: flex;
+    height: 6rem;
+    overflow: hidden;
+    position: relative;
+    width: 6rem;
+    z-index: 2;
+}
+
+.jellyfish__eyes-eye::after {
+    background: #fff;
+    border-radius: 75%;
+    content: '';
+    height: 6rem;
+    left: .5rem;
+    position: absolute;
+    top: 0;
+    width: 6rem;
+    z-index: -1;
+}
+
+.jellyfish__eyes-eye-inner {
+    background: #565757;
+    border-radius: 50%;
+    height: 4rem;
+    left: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    width: 4rem;
+    z-index: 1;
+}
+
+.jellyfish__eyes-eye-inner::after {
+    background: #fff;
+    border-radius: 50%;
+    content: '';
+    height: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1.5rem;
+}
+
+.jellyfish__eyes-eye-inner::before {
+    background: #fff;
+    border-radius: 50%;
+    content: '';
+    height: 1rem;
+    left: .5rem;
+    position: absolute;
+    top: 1rem;
+    width: 1rem;
+}
+
+.jellyfish__eyes-eye.-left {
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+}
+
+.jellyfish__eyes-eye.-right {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+}
+
+.jellyfish-container {
+    bottom: 1rem;
+    left: 8rem;
+    position: absolute;
+}
+
+.jellyfish__mouth {
+    height: 2rem;
+    margin-bottom: -1.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 4rem;
+}
+
+.jellyfish__mouth-inner {
+    border: 3px solid transparent;
+    border-bottom-color: #C9AECB;
+    border-right-color: #C9AECB;
+    border-radius: 50%;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 4rem;
+    left: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 4rem;
+    z-index: 2;
+}
+
+.jellyfish__tentacles-tentacle {
+    animation: tentacles 2.5s ease-in-out infinite;
+    background: #BC9DBF;
+    border-radius: 3px 3px 10px 10px;
+    height: 15rem;
+    opacity: .7;
+    position: absolute;
+    width: 2rem;
+}
+
+.jellyfish__tentacles-tentacle.-one {
+    bottom: -4rem;
+    right: 2rem;
+}
+
+.jellyfish__tentacles-tentacle.-two {
+    bottom: -7.1rem;
+    right: 5rem;
+}
+
+.jellyfish__tentacles-tentacle.-three {
+    bottom: -7rem;
+    right: 9rem;
+}
+
+.jellyfish__tentacles-tentacle.-four {
+    bottom: -5rem;
+    left: 6rem;
+}
+
+.jellyfish__tentacles-tentacle.-five {
+    bottom: -4rem;
+    left: 2rem;
+}
+
+.jellyfish__skirt {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.jellyfish__skirt.-left {
+    background: #BC9DBF;
+    border-radius: 75%;
+    bottom: 0.9rem;
+    height: 5rem;
+    left: -.5rem;
+    transform: rotate(100deg);
+    position: absolute;
+    width: 6rem;
+    z-index: 1;
+}
+
+.jellyfish__skirt.-left::after {
+    background: #C9AECB;
+    border-radius: 100%;
+    bottom: 2rem;
+    content: '';
+    height: 1rem;
+    position: absolute;
+    right: 3rem;
+    width: 1rem;
+}
+
+.jellyfish__skirt.-left::before {
+    background: #C9AECB;
+    border-radius: 100%;
+    bottom: 2rem;
+    content: '';
+    height: .5rem;
+    position: absolute;
+    right: 2rem;
+    width: .5rem;
+}
+
+.jellyfish__skirt.-middle {
+    background: #BC9DBF;
+    border-radius: 75%;
+    bottom: -1rem;
+    height: 4rem;
+    left: 2.5rem;
+    position: absolute;
+    width: 15rem;
+    z-index: 1;
+}
+
+.jellyfish__skirt.-right {
+    background: #BC9DBF;
+    border-radius: 75%;
+    bottom: 0.9rem;
+    height: 5rem;
+    right: -.5rem;
+    transform: rotate(-100deg);
+    position: absolute;
+    width: 6rem;
+    z-index: 1;
+}
+
+.jellyfish__skirt.-right::after {
+    background: #C9AECB;
+    border-radius: 100%;
+    bottom: 2rem;
+    content: '';
+    height: 1rem;
+    position: absolute;
+    right: 3rem;
+    width: 1rem;
+    z-index: 18;
+}
+
+@keyframes up-and-down {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) translateY(-20px);
+    }
+}
+
+@keyframes tentacles {
+
+    0%,
+    100% {
+        transform: scaleY(1.5);
+    }
+
+    50% {
+        transform: scaleY(0.8);
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    5%,
+    7%,
+    10%,
+    12%,
+    100% {
+        transform: scaleY(1);
+    }
+
+    6%,
+    11% {
+        transform: scaleY(0.2);
+    }
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="jellyfish">
+            <div class="jellyfish__head">
+                <div class="jellyfish__detail"></div>
+                <div class="jellyfish__eyes">
+                    <div class="jellyfish__eyes-eye -left">
+                        <div class="jellyfish__eyes-eye-inner"></div>
+                    </div>
+                    <div class="jellyfish__eyes-eye -right">
+                        <div class="jellyfish__eyes-eye-inner"></div>
+                    </div>
+                </div>
+                <div class="jellyfish-container">
+                    <div class="jellyfish__mouth">
+                        <div class="jellyfish__mouth-inner"></div>
+                    </div>
+                </div>
+                <div class="jellyfish__skirt">
+                    <div class="jellyfish__skirt -left"></div>
+                    <div class="jellyfish__skirt -middle"></div>
+                    <div class="jellyfish__skirt -right"></div>
+                </div>
+            </div>
+            <div class="jellyfish__tentacle">
+                <div class="jellyfish__tentacles-tentacle -one"></div>
+                <div class="jellyfish__tentacles-tentacle -two"></div>
+                <div class="jellyfish__tentacles-tentacle -three"></div>
+                <div class="jellyfish__tentacles-tentacle -four"></div>
+                <div class="jellyfish__tentacles-tentacle -five"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
