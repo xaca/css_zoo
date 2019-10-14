@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Penguin</title>
+  <style>
+      .conteiner {
+        position: relative;
+        margin: auto;
+        display: block;
+        margin-top: 8%;
+        width: 600px;
+        height: 420px;
+        background: none;
+      }
+      .head {
+        position: absolute;
+        top: 16.5%;
+        left: 25%;
+        width: 60%;
+        height: 77%;
+        background: rgb(66, 78, 87);
+        border-radius: 50%;
+      }
+      .head-duplicate {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #000000;
+        border-radius: 50%;
+        z-index: 2;
+      }
+      .eye-left {
+        position: absolute;
+        background: white;
+        width: 41%;
+        height: 70%;
+        top: 25%;
+        left: 10%;
+        border-radius: 55%;
+        z-index: 2;
+      }
+      .eye-right {
+        position: absolute;
+        background: white;
+        width: 41%;
+        height: 70%;
+        top: 25%;
+        right: 10%;
+        border-radius: 55%;
+        z-index: 2;
+      }
+      .iris {
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        top: 35%;
+        left: 36%;
+        border-radius: 50%;
+        background: #000000;
+      }
+      .pupil{
+        position: absolute;
+        width: 29%;
+        height: 25%;
+        top: 62%;
+        left: 36%;
+        border-radius: 50%;
+        background: #FFFFFF;
+      }
+      .hat {
+        position: absolute;
+        left: 17%;
+        bottom:82%;
+        z-index: 1;
+        width: 42%;
+        height: 0px;
+        border-right: 20px solid transparent;
+        border-left: 60px solid transparent;
+        border-bottom: 100px solid #428bca;
+        border-radius: 10%;  
+      }
+     .beak {
+        position: absolute;
+        left: 36%;
+        top: 70%;
+        z-index: 3;
+        width: 0; 
+        height: 0; 
+        border-top: 60px solid #f0ad4e;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="head">
+      
+       <div class="hat"><div class="hat-top"></div></div>
+        <div class="head-duplicate"></div>
+        <div class="eye-left">
+          <div class="iris">
+            <div class="pupil"></div>
+          </div>
+        </div>
+        <div class="eye-right">
+          <div class="iris">
+            <div class="pupil"></div>
+          </div>  
+        </div>
+        <div class="beak"></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<footer><span><a href="https://github.com/omairapalacios">Omaira Palacios</a></span></footer>
+</html>
