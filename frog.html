@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Frog</title>
+    <style>
+
+      body {
+        background: #fafafa;
+        padding-top: 100px;
+      }
+
+      .frog {
+        height: 420px;
+        width: 540px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .face-1,
+      .face-2,
+      .face-3 {
+        background: #a8cf95;
+        border: 10px solid #549063;
+        position: absolute;
+      }
+
+      .face-1,
+      .face-2 {
+        border-radius: 150px;
+        height: 160px;
+        width: 160px;
+        z-index: 3;
+      }
+
+      .face-1-mask,
+      .face-2-mask {
+        background: #a8cf95;
+        position: absolute;
+        border-radius: 150px;
+        height: 160px;
+        top: 10px;
+        width: 160px;
+        z-index: 5;
+      }
+
+      .face-1 {
+        left: 70px;
+      }
+
+      .face-2 {
+        right: 70px;
+      }
+
+      .face-1-mask {
+        left: 80px;
+      }
+
+      .face-2-mask {
+        right: 80px;
+      }
+
+      .face-3 {
+        background: linear-gradient(0deg, rgba(84, 144, 99, 1) 0%, rgba(168, 207, 149, 1) 50%);
+        border-radius: 50%;
+        height: 320px;
+        left: 80px;
+        top: 60px;
+        width: 370px;
+        z-index: 4;
+      }
+
+      .eye-left,
+      .eye-right {
+        background: #404040;
+        border: 20px solid #fff;
+        border-radius: 50%;
+        height: 40px;
+        position: absolute;
+        width: 40px;
+        z-index: 6;
+        top: 40px;
+      }
+
+      .eye-left {
+        left: 110px;
+      }
+
+      .eye-right {
+        right: 110px;
+      }
+
+      .nose-left,
+      .nose-right {
+        background: #404040;
+        border-radius: 50%;
+        height: 30px;
+        position: absolute;
+        width: 20px;
+        z-index: 4;
+        top: 160px;
+      }
+
+      .nose-left {
+        left: 230px;
+      }
+
+      .nose-right {
+        right: 230px;
+      }
+
+      .tongue {
+        background: #ff4f4f;
+        border-radius: 50%;
+        height: 70px;
+        left: 120px;
+        position: absolute;
+        top: 60px;
+        width: 110px;
+        z-index: 5;
+      }
+
+      .teeth {
+        background: #fff;
+        border-radius: 50%;
+        height: 40px;
+        left: 80px;
+        position: absolute;
+        top: -20px;
+        width: 200px;
+      }
+
+      .mouth {
+        background: #404040;
+        clip-path: circle(20% at 50% 0%);
+        border-radius: 80px;
+        height: 500px;
+        left: 100px;
+        overflow: hidden;
+        position: absolute;
+        top: 250px;
+        width: 350px;
+        z-index: 4;
+      }
+
+      .author {
+        margin-top: 100px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="frog">
+      <div class="face-1-mask"></div>
+      <div class="face-2-mask"></div>
+
+      <div class="face-1"></div>
+      <div class="face-2"></div>
+      <div class="face-3"></div>
+
+      <div class="eye-left"></div>
+      <div class="eye-right"></div>
+
+      <div class="nose-left"></div>
+      <div class="nose-right"></div>
+
+      <div class="mouth">
+        <div class="teeth"></div>
+        <div class="tongue"></div>
+      </div>
+    </div>
+
+    <p class="author">
+      <a href="https://github.com/decabeza">Alberto decabeza</a>
+    </p>
+  </body>
+</html>
