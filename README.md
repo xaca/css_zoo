@@ -5,7 +5,7 @@
 - [Indonesian](https://github.com/xaca/css_zoo/blob/master/readme_indonesian.md)
 - [Javanese](https://github.com/xaca/css_zoo/blob/master/readme_javanese.md)
 - [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
-- [Polish]
+- [Polish](https://github.com/xaca/css_zoo/blob/master/readme_pl.md)
 - [Portuguese](https://github.com/xaca/css_zoo/blob/master/README_por.md)
 - [Ukrainian](https://github.com/xaca/css_zoo/blob/master/readme_ukrainian.md)
 
