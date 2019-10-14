@@ -20,5 +20,5 @@ Projekt, w którym przechowujemy kod html i css do tworzenia obrazków zwierzak�
 # Inne Projekty
 
 + [Zabawa z Flagami / Zabawne Flagi](https://github.com/xaca/game_banderas)
-+ [M: heart:zyka do programowania](https://github.com/xaca/coding-music)
++ [M:heart:zyka do programowania](https://github.com/xaca/coding-music)
 + [Witaj świecie](https://github.com/xaca/holamundo.co) 
