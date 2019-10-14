@@ -4,6 +4,7 @@
 + [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
 + [Ukrainian](https://github.com/xaca/css_zoo/blob/master/readme_ukrainian.md)
 + [Portuguese](https://github.com/xaca/css_zoo/blob/master/README_por.md)
++ [فارسی - Farsi](https://github.com/xaca/css_zoo/blob/master/README_Farsi.md)
 
 Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
 
