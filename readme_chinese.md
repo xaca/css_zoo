@@ -10,6 +10,6 @@
 + [新動物] (https://github.com/xaca/css_zoo/issues/2)
 + [幫忙翻譯README] (https://github.com/xaca/css_zoo/issues/1)
 # 其他專案
-+ [旗子之樂] (https://github.com/xaca/game_banderas)
++ [旗子之樂] (https://github.com/xaca/juego_banderas)
 + [寫程式就要享受音樂] (https://github.com/xaca/coding-music)
 + [hello world] (https://github.com/xaca/holamundo.co) 
