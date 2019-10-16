@@ -1,99 +1,113 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>sheep</title>
     <style> 
-    body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+      body{
+  background-color: #c0ffee;
 }
-body {
-  background: #FEEE9D;
+#sheep-wool{
+  background-color: #f9fafc;
+  width: 200px;
+  height: 180px;
+  position: relative;
+  margin: auto;
+  border-radius: 50px;
+  text-align: center;
+  top: 100px;
 }
-* {
-  position: absolute;
-}
-
-.face {
-  width: 150px;
-  height: 170px;
-  left: 75px;
-  top: 75px;
-}
-
-.eye-group {
-  width: 150px;
-  height: 50px;
-  top: 10px;
-  left: 0;
-}
-.eye {
-  background-color: #20184E;
-  width: 30px;
-  height: 50px;
-  border-radius: 50%;
-}
-.eye-left {
-  left: 15px;
-}
-.eye-right {
-  right: 15px;
-}
-
-.head {
-  width: 100%;
-  height: 100%;
-  background-color: #FBD671;
-  border-radius: 50%;
-  box-shadow:inset -10px -10px 0px #EFBB42;
-}
-    .mouth {
-  width: 100%;
-  height: 75px;
-  background-color: #20184E;
-  left: 0;
-  bottom: 0;
-  border-radius: 10px 10px 150px 150px;
-  border: 5px solid #20184E;
-  overflow:hidden;
-}
-.tongue {
+#sheep-head{
+  background-color: #ffd799;
   width: 100px;
-  height: 80px;
-  left: 25px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+  border-radius: 30px;
+  text-align: center;
   top: 30px;
-  background-color: #F15962;
-  border-radius: 50%;
+}
+#sheep-right-ear{
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  background-color: #ffd799;
+  top: -8px;
+  left: 10px;
+  border-radius: 30px;
+}
+#sheep-left-ear{
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  background-color: #ffd799;
+  top: -8px;
+  left: 76px;
+  border-radius: 30px;
+}
+#sheep-left-eye{
+  width: 13px;
+  height: 15px;
+  position: absolute;
+  background-color: black;
+  top: 50px;
+  left: 76px;
+  border-radius: 30px;
+}
+#sheep-right-eye{
+  width: 13px;
+  height: 15px;
+  position: absolute;
+  background-color: black;
+  top: 50px;
+  left: 10px;
+  border-radius: 30px;
+}
+#sheep-right-foot{
+  width: 13px;
+  height: 25px;
+  position: absolute;
+  background-color: #ffd799;
+  border-radius: 30px;
+  top: 170px;
+  left: 30px;
+  z-index: -100;
+}
+#sheep-left-foot{
+  width: 13px;
+  height: 25px;
+  position: absolute;
+  background-color: #ffd799;
+  border-radius: 30px;
+  top: 170px;
+  left: 150px;
+  z-index: -100;
 }
     </style>
 </head>
 <body>
-    <div class="head">
-  <div class="face">
-    <div class="mouth">
-      <div class="tongue"></div>
-    </div>
-    <div class="eye-group">
-      <div class="eye eye-left"></div>
-      <div class="eye eye-right"></div>
+  <div id="sheep">
+    <div id="sheep-wool">
+      <div id="sheep-head">
+        <div id- "sheep-ears">
+          <div id="sheep-right-ear">
+          </div>
+          <div id="sheep-left-ear">
+          </div>
+        </div>
+        <div id="sheep-eyes">
+          <div id="sheep-left-eye">
+          </div>
+          <div id="sheep-right-eye">
+          </div>
+        </div>
+      </div>
+      <div id="sheep-left-foot">
+      </div>
+      <div id="sheep-right-foot">
+      </div>
     </div>
   </div>
-</div>
-
-
-
-    <p class="author">
       <a href="https://github.com/vilashirangani">Vilashi Rangani</a>
-    </p>
 </body>
 </html>
 
