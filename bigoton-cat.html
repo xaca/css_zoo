@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>bigoton-cat</title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    * {
+      position: absolute;
+    }
+
+    *:before,
+    *:after {
+      content: "";
+      position: absolute;
+    }
+
+    .circle {
+      height: 400px;
+      width: 400px;
+      background: rgb(240, 204, 0);
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .head {
+      height: 70%;
+      width: 70%;
+      background: #D0CBD2;
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .eye-left {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #030303;
+      left: 50%;
+      top: 50%;
+      transform: translate(-250%, -150%);
+    }
+
+    .eye-right {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      background: #030303;
+      left: 50%;
+      top: 50%;
+      transform: translate(150%, -150%);
+    }
+
+    .whiskers-left {
+      height: 8px;
+      width: 50px;
+      background: #FAFAFA;
+      top: 53%;
+      left: 22%;
+    }
+
+    .whiskers-left::after {
+      height: 8px;
+      width: 50px;
+      background: #FAFAFA;
+      top: 250%;
+      left: -1%;
+    }
+
+
+    .whiskers-right {
+      height: 8px;
+      width: 50px;
+      background: #FAFAFA;
+      top: 53%;
+      right: 22%;
+    }
+
+    .whiskers-right::after {
+      height: 8px;
+      width: 50px;
+      background: #FAFAFA;
+      top: 250%;
+      left: -1%;
+    }
+
+    .nose {
+      height: 30px;
+      width: 60px;
+      background: #030303;
+      left: 50%;
+      top: 56%;
+      transform: translate(-50%, -50%);
+      clip-path: polygon(50% 100%, 0 0, 99% 0);
+      border-radius: 10px;
+    }
+
+    .nose-left {
+      height: 35px;
+      width: 35px;
+      border-style: solid;
+      border-radius: 50%;
+      border-width: 10px;
+      top: 50%;
+      left: 37%;
+    }
+
+    .nose-left::after {
+      height: 45px;
+      width: 55px;
+      background: #D0CBD2;
+      top: -100%;
+      left: -25%;
+    }
+
+
+    .nose-right {
+      height: 35px;
+      width: 35px;
+      border-style: solid;
+      border-radius: 50%;
+      border-width: 10px;
+      top: 50%;
+      right: 37%;
+    }
+
+    .nose-right::after {
+      height: 45px;
+      width: 55px;
+      background: #D0CBD2;
+      top: -100%;
+      left: -25%;
+    }
+
+
+    .ear-right {
+      height: 70px;
+      width: 70px;
+      background: #D0CBD2;
+      clip-path: polygon(50% 0%, 0 40%, 72% 100%);
+      right: 15%;
+      top: 15%;
+    }
+
+    .ear-left {
+      height: 70px;
+      width: 70px;
+      background: #D0CBD2;
+      left: 15%;
+      top: 15%;
+      clip-path: polygon(50% 0%, 0 40%, 72% 100%);
+      transform: scaleX(-1)
+    }
+  </style>
+</head>
+
+<body>
+  <div class="circle">
+    <div class="head"></div>
+    <div class="ear-right"></div>
+    <div class="ear-left"></div>
+    <div class="nose-left"></div>
+    <div class="nose-right"></div>
+    <div class="whiskers-left"></div>
+    <div class="whiskers-right"></div>
+    <div class="eye-left"></div>
+    <div class="eye-right"></div>
+    <div class="eye-lid-top"></div>
+    <div class="nose"></div>
+  </div>
+  <span><a href="https://github.com/maliciacanv">Malicia canteño</a></span>
+</body>
+
+</html>
