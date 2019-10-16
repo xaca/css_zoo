@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Owl</title>
+    <style>
+        body {
+            background: rgb(32, 32, 47);
+            display: flex;
+            justify-content: center;
+        }
+
+        .owl {
+            position: absolute;
+            width: 260px;
+            height: 300px;
+            margin-top: 100px;
+        }
+
+        .body {
+            background-color: rgb(105, 76, 61);
+            width: 260px;
+            height: 300px;
+            position: absolute;
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+
+        .left-eye {
+            background-color: rgb(250, 224, 145);
+            width: 115px;
+            height: 115px;
+            border-radius: 50%;
+            position: absolute;
+            top: 16%;
+            left: 4%;
+            z-index: 1;
+        }
+
+        .right-eye {
+            background-color: rgb(250, 224, 145);
+            width: 115px;
+            height: 115px;
+            position: absolute;
+            top: 16%;
+            right: 4%;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .iris-left {
+            width: 90px;
+            height: 90px;
+            background-color: rgb(171, 85, 48);
+            border-radius: 50%;
+            position: absolute;
+            top: 8px;
+            left: 0;
+        }
+
+        .iris-right {
+            width: 90px;
+            height: 90px;
+            background-color: rgb(171, 85, 48);
+            border-radius: 50%;
+            position: absolute;
+            top: 8px;
+            left: 0;
+
+        }
+
+        .pupil-left {
+            width: 80px;
+            height: 80px;
+            background-color: #222;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .pupil-right {
+            width: 80px;
+            height: 80px;
+            background-color: #222;
+            position: absolute;
+            border-radius: 50%;
+
+        }
+
+        .up-bright {
+            width: 38px;
+            height: 38px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .down-bright {
+            width: 16px;
+            height: 16px;
+            background-color: white;
+            border-radius: 50%;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .beak {
+            width: 0;
+            height: 0;
+            border-top-right-radius: 100%;
+            border-top-left-radius: 100%;
+            border-left: 12px solid transparent;
+            border-right: 12px solid transparent;
+            border-top: 24px solid rgb(254, 136, 14);
+            position: absolute;
+            top: 142px;
+            left: 118px;
+        }
+
+
+        .belly {
+            width: 110px;
+            height: 120px;
+            background-color: rgb(186, 148, 121);
+            position: absolute;
+            bottom: 0;
+            left: 75px;
+            border-radius: 100%;
+        }
+
+        .left-wing {
+            width: 70px;
+            height: 150px;
+            background-color: rgb(105, 86, 78);
+            position: absolute;
+            top: 150px;
+            left: -30px;
+            border-radius: 100%;
+            transform: rotate(10deg);
+            animation: shakeLeftWing 3s infinite
+        }
+        .right-wing {
+            width: 70px;
+            height: 150px;
+            background-color: rgb(105, 86, 78);
+            position: absolute;
+            top: 150px;
+            right: -30px;
+            border-radius: 100%;
+            transform: rotate(-10deg);
+            animation: shakeRightWing 3s infinite
+        }
+
+        .left-ear {
+            background-color: rgb(105, 76, 61);
+            width: 120px;
+            height: 120px;
+            left: 15px;
+            position: absolute;
+            transform: rotate(15deg);
+
+        }
+        .right-ear {
+            background-color: rgb(105, 76, 61);
+            width: 120px;
+            height: 120px;
+            right: 15px;
+            position: absolute;
+            transform: rotate(-15deg);
+        }
+
+        .left-foot {
+            width: 10px;
+            height: 38px;
+            background-color: rgb(230, 153, 52);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            position: absolute;
+            top: 286px;
+            left: 82px;
+            z-index: -1;
+
+        }
+        .right-foot {
+            width: 10px;
+            height: 38px;
+            background-color: rgb(230, 153, 52);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            position: absolute;
+            top: 286px;
+            right: 82px;
+            z-index: -1;
+        }
+
+        a {
+            position: absolute;
+            top: 500px;
+            font-size: 18px;
+            font-weight: bold;
+            font-family: monospace;
+            color: white;
+        }
+
+        @keyframes shakeLeftWing {
+            0% { top: 150px; }
+            15% { top: 145px; }
+            25% { top: 150px; }
+            45% { top: 140px; }
+            100% { top: 150px; }
+        }
+
+        @keyframes shakeRightWing {
+            0% { top: 150px; }
+            15% { top: 145px; }
+            25% { top: 150px; }
+            45% { top: 145px; }
+            100% { top: 150px; }
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="owl">
+        <div class="body">
+            <div class="left-ear"></div>
+            <div class="right-ear"></div>
+            <div class="left-eye">
+                <div class="iris-left">
+                    <div class="pupil-left">
+                        <div class="up-bright"></div>
+                        <div class="down-bright"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-eye">
+                <div class="iris-right">
+                    <div class="pupil-right">
+                        <div class="up-bright"></div>
+                        <div class="down-bright"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="beak"></div>
+            <div class="belly"></div>
+            <div class="left-wing"></div>
+            <div class="right-wing"></div>
+            <div class="left-foot"></div>
+            <div class="right-foot"></div>
+        </div>
+    </div>
+    <a target="_blank" href="https://github.com/henrikhorbovyi">Henrique Horbovyi</a>
+  </body>
+</html>
