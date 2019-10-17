@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Turtle</title>
+    <style>
+        .turtle {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+
+        .head {
+            width: 95px;
+            height: 100px;
+            background-color: #90EE90;
+            position: absolute;
+            top: 5%;
+            left: 30%;
+            border-radius: 50%;
+        }
+
+        .shell {
+            width: 200px;
+            height: 220px;
+            background-color: #008000;
+            border-radius: 50%;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+        }
+
+        .left-eye {
+            width: 15px;
+            height: 25px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+
+        .right-eye {
+            width: 15px;
+            height: 25px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 10%;
+            left: 70%;
+        }
+
+        .outer-inner-shell {
+            width: 160px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #D2B48C;
+            position: absolute;
+            top: 10%;
+            left: 10%;
+        }
+
+        .inner-shell {
+            color: #008000;
+            position: absolute;
+            top: -10%;
+            left: 11%;
+        }
+
+        .front-legs,
+        .back-legs {
+            height: 300px;
+            width: 50px;
+            border-radius: 20%;
+            position: absolute;
+            background-color: #90EE90;
+            top: 10%;
+            left: 35%;
+        }
+
+        .front-legs {
+            transform: rotate(-45deg);
+        }
+
+        .back-legs {
+            transform: rotate(45deg);
+        }
+
+        .shell-line {
+            height: 45px;
+            width: 5px;
+            background-color: #008000;
+        }
+
+        .top {
+            position: absolute;
+            top: 10%;
+            left: 48%;
+        }
+
+        .top-left {
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 25%;
+            left: 20%;
+        }
+
+        .top-right {
+            transform: rotate(45deg);
+            position: absolute;
+            top: 25%;
+            left: 75%;
+        }
+
+        .bottom {
+            position: absolute;
+            top: 75%;
+            left: 48%;
+        }
+
+        .bottom-left {
+            transform: rotate(45deg);
+            position: absolute;
+            top: 60%;
+            left: 20%;
+        }
+
+        .bottom-right {
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 60%;
+            left: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="turtle">
+        <div class="head">
+            <div class="left-eye"></div>
+            <div class="right-eye"></div>
+        </div>
+        <div class="front-legs"></div>
+        <div class="back-legs"></div>
+        <div class="tail"></div>
+        <div class="shell">
+            <div class="outer-inner-shell">
+                <span class="inner-shell" style="font-size: 155px;">&#x2B22;</span>
+            </div>
+            <div class="shell-line top"></div>
+            <div class="shell-line top-left"></div>
+            <div class="shell-line top-right"></div>
+            <div class="shell-line bottom"></div>
+            <div class="shell-line bottom-left"></div>
+            <div class="shell-line bottom-right"></div>
+        </div>
+    </section>
+    <p>
+        By <a href="https://www.github.com/emaraan">emaraan</a>
+    </p>
+</body>
+</html>
