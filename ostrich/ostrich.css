@@ -1,0 +1,81 @@
+body {
+  background: #339933;
+}
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  width: 600px;
+  height: 600px;
+
+  border: solid 4px red;
+}
+
+.head {
+  position: absolute;
+  top: 10%;
+  left: 65%;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+  background: #FFEECC;
+}
+
+.eye {
+  position: absolute;
+  top: 30%;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  background: black;
+}
+
+.eye.left {
+  left: 10%;
+}
+
+.eye.right {
+  right: 10%;
+}
+
+.beak {
+  position: relative;
+  margin: auto;
+  top: 60%;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 50px solid #FFDD99;
+}
+
+.body {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  width: 50%;
+  height: 35%;
+  border-radius: 50%;
+  background: black;
+}
+
+.wing {
+  position: relative;
+  margin: auto;
+  top: 35%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: white;
+}
+
+.tail {
+  position: absolute;
+  top: 35%;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  background: white;
+}
