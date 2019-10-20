@@ -3,6 +3,7 @@
 - [English](https://github.com/xaca/css_zoo/blob/master/readme_english.md)
 - [فارسی - Farsi](https://github.com/xaca/css_zoo/blob/master/README_Farsi.md)
 - [Indonesian](https://github.com/xaca/css_zoo/blob/master/readme_indonesian.md)
+- [Italiano](https://github.com/xaca/css_zoo/blob/master/readme_it.md)
 - [Javanese](https://github.com/xaca/css_zoo/blob/master/readme_javanese.md)
 - [Hindi](https://github.com/xaca/css_zoo/blob/master/readme_hindi.md)
 - [Polish](https://github.com/xaca/css_zoo/blob/master/readme_pl.md)
