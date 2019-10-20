@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Octopus</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .octopus {
+        background: linear-gradient(to bottom, #ffeeee, #d64545);
+        border-radius: 300px;
+        height: 310px;
+        width: 300px;
+        position: relative;
+      }
+
+      .eyes {
+        position: absolute;
+        width: 160px;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .right-eye,
+      .left-eye {
+        width: 60px;
+        height: 90px;
+        border-radius: 30px / 45px;
+        background: #1f2933;
+        position: relative;
+        box-shadow: 0 -20px 10px rgba(255, 255, 255, 0.1) inset;
+      }
+
+      .right-eye::before,
+      .left-eye::before {
+        content: '';
+        position: absolute;
+        width: 90px;
+        height: 120px;
+        border-radius: 45px / 60px;
+        background: linear-gradient(135deg, #fff, #e66a6a);
+        z-index: -1;
+        bottom: -15%;
+        left: -25%;
+      }
+
+      .right-eye::after,
+      .left-eye::after {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 25px;
+        border-radius: 15px / 25px;
+        background: #fff;
+        background: linear-gradient(to bottom right, #fff, #1f2933);
+        top: 15px;
+        left: 20px;
+      }
+
+      .mouth {
+        width: 20px;
+        height: 30px;
+        background: #1f2933;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        border: 10px solid #f29b9b;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .tentacle {
+        width: 350px;
+        height: 110px;
+        position: absolute;
+        background: linear-gradient(to bottom right, #ffeeee, #d64545);
+        border-radius: 63% 37% 54% 46% / 30% 0% 100% 70%;
+      }
+      .right-1,
+      .left-1 {
+        bottom: -50px;
+        z-index: -1;
+      }
+
+      .left-1 {
+        left: -195px;
+        transform: rotate(10deg);
+      }
+
+      .right-1 {
+        transform: scale(-1, 1) rotate(10deg);
+        right: -195px;
+      }
+
+      .right-2,
+      .left-2 {
+        bottom: 20px;
+        z-index: -2;
+      }
+
+      .left-2 {
+        left: -210px;
+        transform: rotate(30deg);
+      }
+
+      .right-2 {
+        right: -210px;
+        transform: scale(-1, 1) rotate(30deg);
+      }
+
+      .author {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="octopus">
+      <div class="eyes">
+        <div class="right-eye"></div>
+        <div class="left-eye"></div>
+      </div>
+      <div class="mouth"></div>
+      <div class="tentacle left-1"></div>
+      <div class="tentacle left-2"></div>
+      <div class="tentacle right-1"></div>
+      <div class="tentacle right-2"></div>
+    </div>
+    <p class="author">
+      <a target="_blank" href="https://github.com/rmasianjr"
+        >Ricardo Masian Jr.</a
+      >
+    </p>
+  </body>
+</html>
