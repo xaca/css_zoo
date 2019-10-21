@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>bigoton-cat</title>
+    <style>
+    .bear-container{
+        left: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        }
+      .face,
+      .face:before,
+      .face:after,
+      .features,
+      .features:before,
+      .features:after {
+        position: absolute;
+      }
+      .face:before,
+      .face:after,
+      .features:before,
+      .features:after {
+        content: "";
+      }
+
+      .bodySlant {
+        background-color: #e6ac4c;
+        border-radius: 4px;
+        transform-origin: 50% 100%;
+        transform: perspective(300px) rotateX(20deg);
+      }
+
+      .earsBasic:before,
+      .earsBasic:after {
+        width: 0;
+        height: 0;
+        top: -25px;
+        border-top: 28px solid transparent;
+        border-bottom: 20px solid transparent;
+      }
+      .earsBasic:before {
+        border-left: 20px solid #e6ac4c;
+        left: 0;
+      }
+      .earsBasic:after {
+        border-right: 20px solid #e6ac4c;
+        right: 0;
+      }
+      .bear {
+        top: 40px;
+        left: 590px;
+        height: 120px;
+        background-color: #5a3d0d;
+      }
+      .bear.alt {
+        left: 60px;
+        top: 230px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50% / 45% 45% 35% 35%;
+        box-shadow: 0 54px 0 -12px #d0ba96, 0 54px 0 2px #5a3d0d,
+          -18px -23px 0 -25px #d0ba96, 18px -23px 0 -25px #d0ba96,
+          -18px -23px 0 -20px #5a3d0d, 18px -23px 0 -20px #5a3d0d,
+          -17px 84px 0 -22px #5a3d0d, 17px 84px 0 -22px #5a3d0d;
+      }
+      .bear.alt:before {
+        left: -16px;
+        top: 56px;
+        width: 30px;
+        height: 25px;
+        background-color: #5a3d0d;
+        border-radius: 50% / 40%;
+        box-shadow: -1px 0 #d0ba96, 72px 0 #5a3d0d, 73px 0 #d0ba96;
+      }
+      .bear.alt:after {
+        display: none;
+      }
+      .bear.alt .face {
+        left: 20px;
+      }
+      .bear.alt .features {
+        display: none;
+      }
+      .bear:before {
+        top: -22px;
+        left: 0;
+        width: 35px;
+        height: 26px;
+        background-color: #5a3d0d;
+        border-radius: 50% 50% 0 0 / 70%;
+        box-shadow: 55px 0 #5a3d0d;
+      }
+      .bear:after {
+        top: 50px;
+        left: -12px;
+        width: 14px;
+        height: 15px;
+        background-color: #d0ba96;
+        border-radius: 40%;
+        box-shadow: 100px 0 #d0ba96, 97px 0px 0px 8px #5a3d0d,
+          3px 0px 0px 8px #5a3d0d, 18px 65px #d0ba96, 18px 65px 0px 6px #5a3d0d,
+          82px 65px #d0ba96, 82px 65px 0px 6px #5a3d0d;
+        animation: wave 8s infinite linear;
+      }
+      .bear .face {
+        top: 25px;
+        left: 30px;
+        width: 30px;
+        height: 30px;
+        background-color: #d0ba96;
+        border: 0;
+        border-radius: 50%;
+      }
+      .bear .face:before {
+        top: 5px;
+        left: 11px;
+        z-index: 5;
+        width: 8px;
+        height: 8px;
+        background-color: #2f1f05;
+        border-radius: 50%;
+        box-shadow: -3px 0 #2f1f05, -2px 0 #2f1f05, 2px 0 #2f1f05, 3px 0 #2f1f05,
+          0 3px #2f1f05, -12px -12px #2f1f05, 12px -12px #2f1f05;
+      }
+      .bear .face:after {
+        left: 12px;
+        top: 11px;
+        width: 10px;
+        height: 10px;
+        border-bottom: 3px solid #000;
+        border-radius: 40%;
+        transform: rotate(-30deg);
+      }
+      .bear .features {
+        top: 65px;
+        left: 23px;
+        width: 45px;
+        height: 45px;
+        background-color: #d0ba96;
+        border-radius: 40%;
+      }
+      .bear .features:before {
+        top: -77px;
+        left: -12px;
+        width: 14px;
+        height: 8px;
+        background-color: #d0ba96;
+        border-radius: 50% 50% 0 0 / 70%;
+        box-shadow: 55px 0 #d0ba96;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bear-container">
+      <div class="bear body alt">
+        <div class="face"></div>
+        <div class="features"></div>
+      </div>
+    </div>
+  </body>
+</html>
