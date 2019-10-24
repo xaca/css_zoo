@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ostrich</title>
+    <style>
+
+      body {
+        background: #339933;
+      }
+
+      .box {
+        position: relative;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        width: 600px;
+        height: 600px;
+      }
+
+      .head {
+        position: absolute;
+        top: 2%;
+        left: 65%;
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        background: #FFCCB3;
+      }
+
+      .eye {
+        position: absolute;
+        top: 30%;
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
+        background: black;
+      }
+
+      .eye.left {
+        left: 10%;
+      }
+
+      .eye.right {
+        right: 10%;
+      }
+
+      .beak {
+        position: relative;
+        margin: auto;
+        top: 60%;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 50px solid #FF9966;
+      }
+
+      .neck {
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        width: 5%;
+        height: 25%;
+        background: #FFCCB3;
+        transform: rotate(20deg);
+        z-index: -1;
+      }
+
+      .base {
+        position: absolute;
+        top: 80%;
+        left: -50%;
+        width: 200%;
+        height: 50%;
+        border-radius: 50%;
+        background: black;
+      }
+
+      .body {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        width: 50%;
+        height: 35%;
+        border-radius: 50%;
+        background: black;
+      }
+
+      .wing {
+        position: absolute;
+        margin: auto;
+        top: 35%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        transform: rotate(-15deg);
+        background: white;
+      }
+
+      .leg {
+        position: absolute;
+        top: 80%;
+        width: 5%;
+        height: 100%;
+        background: #FFCCB3;
+        z-index: -1;
+      }
+
+      .leg.left {
+        left: 35%;
+      }
+
+      .leg.right {
+        left: 55%;
+      }
+
+      .thigh {
+        position: absolute;
+        left: -155%;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 100px solid #FFCCB3;
+      }
+
+      .knee {
+        position: relative;
+        margin: auto;
+        top: 40%;
+        width: 150%;
+        height: 20%;
+        border-radius: 50%;
+        background: #FFCCB3;
+      }
+
+      .foot {
+        position: relative;
+        margin: auto;
+        top: 73%;
+        left: 10%;
+        width: 0;
+        height: 0;
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-left: 50px solid #FFCCB3;
+        transform: rotate(10deg);
+      }
+
+      .tail {
+        position: absolute;
+        top: 35%;
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        background: white;
+        z-index: -1
+      }
+
+      .author {
+        position: relative;
+        top: 100%;
+        left: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="head">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="beak"></div>
+      </div>
+      <div class="neck">
+        <div class="base"></div>
+      </div>
+      <div class="body">
+        <div class="wing"></div>
+        <div class="leg left">
+          <div class="thigh"></div>
+          <div class="knee"></div>
+          <div class="foot"></div>
+        </div>
+        <div class="leg right">
+          <div class="thigh"></div>
+          <div class="knee"></div>
+          <div class="foot"></div>
+        </div>
+      </div>
+      <div class="tail"></div>
+      <div class="author">
+        <a href="https://github.com/kiana-caston" target="_blank">Kiana Caston</a>
+      </div>
+    </div>
+  </body>
+</html>
