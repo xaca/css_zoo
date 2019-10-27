@@ -1535,6 +1535,179 @@ body {
 
 /*
 ################
+               lion by couriwolfe
+################
+*/
+
+.lion-body {
+  align-items: center;
+  background-color: #ffdddd;
+  display: flex;
+  font-family: Tahoma;
+  justify-content: center;
+}
+
+#lion .head {
+  background-color: #e1c181;
+  border-radius: 50%;
+  bottom: 140px;
+  height: 150px;
+  left: -5px;
+  position: absolute;
+  width: 150px;
+  z-index: 1;
+}
+
+#lion .eye-left {
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  left: 20px;
+  position: absolute;
+  top: 60px;
+  width: 30px;
+}
+
+#lion .eye-right {
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  left: 100px;
+  position: absolute;
+  top: 60px;
+  width: 30px;
+}
+
+#lion .highlight {
+  background-color: #CCC;
+  border-radius: 50%;
+  height: 12px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 12px;
+}
+
+#lion .nose {
+  background-color: #af612a;
+  border-radius: 50%;
+  height: 20px;
+  left: 65px;
+  position: absolute;
+  top: 87px;
+  width: 20px;
+}
+
+#lion .cheek-right {
+  background-color: #ebd7ad;
+  border-radius: 50%;
+  height: 30px;
+  left: 75px;
+  position: absolute;
+  top: 90px;
+  width: 30px;
+}
+
+#lion .cheek-left {
+  background-color: #ebd7ad;
+  border-radius: 50%;
+  height: 30px;
+  left: 45px;
+  position: absolute;
+  top: 90px;
+  width: 30px;
+}
+
+#lion .mouth {
+  background-color: #ff9999;
+  border-radius: 40%;
+  height: 30px;
+  left: 65px;
+  position: absolute;
+  top: 95px;
+  width: 20px;
+}
+
+#lion .mane {
+  background-color: #af612a;
+  border-radius: 50%;
+  height: 90px;
+  position: absolute;
+  width: 90px;
+}
+
+#lion .R1 {
+  bottom: 260px;
+  left: 70px;
+}
+
+#lion .L1 {
+  bottom: 260px;
+  left: -10px;
+}
+
+#lion .R2 {
+  bottom: 200px;
+  left: 110px;
+}
+
+#lion .L2 {
+  bottom: 200px;
+  left: -60px;
+}
+
+#lion .R3 {
+  bottom: 130px;
+  left: 110px;
+}
+
+#lion .L3 {
+  bottom: 130px;
+  left: -60px;
+}
+
+#lion .R4 {
+  bottom: 80px;
+  left: 70px;
+}
+
+#lion .L4 {
+  bottom: 80px;
+  left: -5px;
+}
+
+#lion .body {
+  background-color: #e1c181;
+  border-radius: 40% 70% 40% 50%;
+  height: 200px;
+  position: relative;
+  margin-top: 20px;
+  width: 190px;
+}
+
+#lion .tail {
+  color: #e1c181;
+  font-size: 17em;
+  font-weight: 300;
+  left: 140px;
+  position: absolute;
+  top: -52px;
+  transform: scale(1, -1) rotate(75deg);
+}
+
+#lion .tail-fur {
+  background-color: #af612a;
+  border-radius: 0 50% 40% 50%;
+  height: 50px;
+  position: absolute;
+  left: 240px;
+  top: 15px;
+  transform: rotate(80deg);
+  width: 40px;
+}
+
+/*
+################
                [animal id] by [your name]
 ################
 */
