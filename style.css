@@ -1406,6 +1406,135 @@ body {
 
 /*
 ################
+               elephant by couriwolfe
+################
+*/
+
+.elephant-background {
+  background-color: #D0F0C0;
+}
+
+#elephant-1 {
+  height: 300px;
+  margin: auto;
+  position: relative;
+  width: 300px;
+}
+
+#elephant-1 .head {
+  background-color: #999;
+  border-radius: 50% 40%;
+  height: 150px;
+  left: -10px;
+  margin-top: 220px;
+  position: absolute;
+  width: 150px;
+}
+
+#elephant-1 .eye {
+  background-color: #444;
+  border-radius: 50%;
+  height: 30px;
+  left: 55px;
+  position: absolute;
+  top: 64px;
+  width: 30px;
+}
+
+#elephant-1 .highlight {
+  background-color: #CCC;
+  border-radius: 50%;
+  height: 12px;
+  left: 12px;
+  position: absolute;
+  top: 3px;
+  width: 12px;
+}
+
+#elephant-1 .trunk {
+  color: #999;
+  font-family: Arial;
+  font-size: 13em;
+  font-weight: bold;
+  left: -60px;
+  position: absolute;
+  top: 15px;
+  transform: rotate(-5deg);
+  z-index: -1;
+}
+
+#elephant-1 .ear {
+  background-color: #777;
+  border-radius: 0 50% 0 75%;
+  height: 140px;
+  left: 110px;
+  position: absolute;
+  top: 5px;
+  width: 120px;
+}
+
+#elephant-1 .inner-ear {
+  background-color: #EDBBB4;
+  border-radius: 0 75% 0 75%;
+  height: 130px;
+  margin-top: 10px;
+  width: 110px;
+}
+
+#elephant-1 .body {
+  background-color: #999;
+  border-radius: 40%;
+  height: 210px;
+  left: 60px;
+  position: absolute;
+  top: 250px;
+  width: 230px;
+  z-index: -1;
+}
+
+#elephant-1 .leg-front {
+  background-color: #999;
+  border-radius: 10px;
+  height: 80px;
+  left: 20px;
+  position: absolute;
+  top: 160px;
+  width: 50px;
+}
+
+#elephant-1 .leg-back {
+  background-color: #999;
+  border-radius: 10px;
+  height: 80px;
+  left: 160px;
+  position: absolute;
+  top: 160px;
+  width: 50px;
+}
+
+#elephant-1 .tail {
+  color: #999;
+  font-size: 8em;
+  font-weight: bold;
+  left: 210px;
+  position: absolute;
+  top: 10px;
+  transform: rotate(-26deg); 
+}
+
+#elephant-1 .tail-fur {
+  background-color: #777;
+  border-radius: 0 50% 0 75%;
+  height: 40px;
+  position: absolute;
+  left: 239px;
+  top: 135px;
+  transform: rotate(6deg);
+  width: 30px;
+}
+
+/*
+################
                [animal id] by [your name]
 ################
 */
