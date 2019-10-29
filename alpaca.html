@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Alpaca</title>
+    <style>
+
+      body {
+        background: #339933;
+      }
+
+      .box {
+        position: relative;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        width: 600px;
+        height: 800px;
+      }
+
+      .head {
+        position:absolute;
+        top: 30px;
+        width: 110px;
+        height: 115px;
+      }
+
+      .face {
+        position: absolute;
+        background-color: #CDB485;
+        width: 100%;
+        height: 100%;
+        border-radius: 35% 35% 10% 10%;
+      }
+
+      .ears {
+        position:absolute;
+        top: -50px;
+        width: 100%;
+        height: 100px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .ear {
+        width: 25px;
+        height: 100px;
+        background-color: #CDB485;
+      }
+
+      .ear.left {
+        border-radius: 75% 15% 0 0;
+        border-left: 10px solid #B99A5F;
+      }
+
+      .ear.right {
+        border-radius: 15% 75% 0 0;
+        border-right: 10px solid #B99A5F;
+      }
+
+      .eyes {
+        position:absolute;
+        top: 0;
+        width: 100%;
+        height: 35px;
+        padding-left: 15px;
+        padding-top: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .eye {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        background: black;
+      }
+
+      .eye.left {
+        left: 10%;
+      }
+
+      .eye.right {
+        right: 10%;
+      }
+
+      .snout {
+        position:absolute;
+        top: 71px;
+        left: 80px;
+        background-color: #CDB485;
+
+        width: 55px;
+        height: 45px;
+
+        border-bottom: 10px solid #B99A5F;
+        border-radius: 0 40% 40% 0;        
+      }
+
+      .nose {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        width: 15px;
+        height: 5px;
+        border-top: 5px solid black;
+        border-radius: 50% 50% 0 0;
+      }
+
+      .neck {
+        position: absolute;
+        top: 115px;
+        left: 8px;
+        background-color: #CDB485;
+        width: 75px;
+        height: 195px;
+        border-top: 40px solid #B99A5F;
+      }
+
+      .base {
+        background-color: #CDB485;
+      }
+
+      .body {
+        position: absolute;
+        top: 275px;
+        left: 7px;
+        width: 275px;
+        height: 130px;
+      }
+
+      .loin {
+        position:absolute;
+        top: 0px;
+        background-color: #CDB485;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 50% 30% 50%; 
+        border-bottom: 15px solid #B99A5F;
+      }
+
+      .front {
+        position:absolute;
+        top:  115px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      
+      .back {
+        position:absolute;
+        top: 115px;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+
+      .leg {
+        position: relative;
+        left: 25px;
+        width: 45px;
+        height: 145px;
+        border-right: 5px solid #B99A5F;
+        border-radius: 5% 5% 5% 5%; 
+      }
+
+      .front .leg {
+        background-color: #CDB485;
+      }
+      
+      .back .leg {
+        background-color: #B99A5F;
+      }
+
+      .foot {
+        position: absolute;
+        left: -20px;
+        bottom: 0;
+        background-color: #CDB485;
+        width: 45px;
+        height: 25px;
+        border-radius: 25% 0 15% 15%; 
+        border-top: 3px solid #B99A5F;
+      }
+
+      .back .foot {
+        background-color: #B99A5F;
+      }
+
+      .tail {
+        position: absolute;
+        top: 25px;
+        left: 235px;
+        background-color: #CDB485;
+        width: 60px;
+        height: 30px;
+        border-radius: 0 0 100% 0; 
+        border-bottom: 5px solid #B99A5F;
+      }
+
+      .author {
+        position: relative;
+        top: 100%;
+        left: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="neck"></div>
+      <div class="head">
+        <div class="ears">
+          <div class="ear left"></div>
+          <div class="ear right"></div>
+        </div>
+        <div class="face"></div>
+        <div class="eyes">
+          <div class="eye left"></div>
+          <div class="eye right"></div>
+        </div>
+        <div class="snout">
+          <div class="nose"></div>
+        </div>
+      </div>
+      <div class="body">
+        <div class="back">
+          <div class="leg left">
+            <div class="foot"></div>
+          </div>
+          <div class="leg right">
+            <div class="foot"></div>
+          </div>
+        </div>
+        <div class="tail"></div>
+        <div class="loin"></div>
+        <div class="front">
+          <div class="leg left">
+            <div class="foot"></div>
+          </div>
+          <div class="leg right">
+            <div class="foot"></div>
+          </div>
+        </div>
+      </div>
+      <div class="author">
+        <a href="https://github.com/olsyx" target="_blank">Olsyx</a>
+      </div>
+    </div>
+  </body>
+</html>
