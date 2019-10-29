@@ -17,6 +17,6 @@ Project to collect code in HTML and CSS to create images of different animals
 
 # Other projects
 
-+ [Fun with flags / Fun Flags](https://github.com/xaca/game_banderas)
-+ [C: heart: ding music](https://github.com/xaca/coding-music)
-+ [hello world](https://github.com/xaca/holamundo.co) 
++ [Fun with flags / Fun Flags](https://github.com/xaca/juego_banderas)
++ [C:heart:ding music](https://github.com/xaca/coding-music)
++ [Hello world](https://github.com/xaca/holamundo.co) 
