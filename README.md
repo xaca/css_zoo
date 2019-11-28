@@ -12,25 +12,25 @@
 - [Dutch](https://github.com/xaca/css_zoo/blob/master/README-Dutch.md)
 - [Hungarian](https://github.com/xaca/css_zoo/blob/master/readme_hungarian.md)
 
-Proyecto para recolectar código en html y css para crear imágenes de diferentes animales
+Project to collect code in HTML and CSS to create images of different animals
 
-# Instrucciones
+# Instructions
 
-- Por favor revisar los animales creados para no repetir
-- Si repites animal cambia la forma o estilo, para tener diferentes diseños
-- Crear html con el nombre del animal en inglés
-- Usando etiquetas y html solamente crear una representación gráfica del animal
-- No se admiten imágenes
-- Agregar los créditos del autor
-- Seguir el [código conducta de hacktoberfest](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
+- Please check the animals created to not repeat 
+- If you repeat animal change the shape or style to have different designs 
+- Create HTML with the name of the animal in English
+- Using tags and HTML only create a graphic representation of the animal
+- No pictures allowed
+- Add author credits
+- Follow the [Hacktoberfest Events Code of Conduct](https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit)
 
 # Issues
 
-- [Nuevos animales](https://github.com/xaca/css_zoo/issues/2)
-- [Ayuda con traducción archivo readme](https://github.com/xaca/css_zoo/issues/1)
+- [New animals](https://github.com/xaca/css_zoo/issues/2)
+- [Help with translation readme file](https://github.com/xaca/css_zoo/issues/1)
 
-# Otros proyectos
+# Other projects
 
 - [Fun with flags/Banderas divertidas](https://github.com/xaca/juego_banderas)
 - [C:heart:ding music](https://github.com/xaca/coding-music)
-- [hola mundo](https://github.com/xaca/holamundo.co)
+- [hello world](https://github.com/xaca/holamundo.co)
